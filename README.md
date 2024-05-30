@@ -46,22 +46,22 @@ Visualizes hand movements and gestures in RViz2, aiding in debugging and develop
 The following sections describe the gestures used to control the drone. Each gesture will be illustrated with an image.
 
 ### Gesture 1: [Description]
-![Gesture FIVE](~/Downloads/five.png)
+![Gesture FIVE]([text](../Downloads/five))
 
 ### Gesture 2: [Description]
-![Gesture FIST](~/Downloads/fist.png)
+![Gesture FIST]([text](../Downloads/fist))
 
 ### Gesture 3: [Description]
-![Gesture THUMB_L](~/Downloads/thl.png)
+![Gesture THUMB_L]([text](../Downloads/thl))
 
 ### Gesture 4: [Description]
-![Gesture THUMB_R](~/Downloads/th.png)
+![Gesture THUMB_R]([text](../Downloads/th))
 
 ### Gesture 5: [Description]
-![Gesture ONE](~/Downloads/one.png)
+![Gesture ONE]([text](../Downloads/one))
 
 ### Gesture 6: [Description]
-![Gesture TWO](~/Downloads/two.png)
+![Gesture TWO]([text](../Downloads/two))
 
 ## Getting Started
 

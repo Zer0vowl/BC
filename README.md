@@ -51,7 +51,7 @@ Visualizes hand movements and gestures in RViz2, aiding in debugging and develop
 2. **Clone this repository**:
     ```bash
     cd src/
-    git clone [your repository link]
+    git clone https://github.com/Zer0vowl/BC.git
     ```
 
 3. **Install dependencies**:

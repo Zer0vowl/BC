@@ -1,0 +1,32 @@
+[0.091s] Invoking command in '/home/flejv/bc_ws/build/bc_pkg': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[0.175s] [35m[1mConsolidate compiler generated dependencies of target control[0m
+[0.195s] [  7%] Built target libExampleConnection
+[0.203s] [ 23%] Built target hand
+[0.207s] [ 38%] Built target connect
+[0.211s] [ 53%] Built target gest
+[0.216s] [ 61%] [32mBuilding CXX object CMakeFiles/control.dir/src/leap_control.cpp.o[0m
+[0.242s] [ 76%] Built target rpy
+[0.244s] [ 92%] Built target carth
+[3.752s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In constructor ‘[01m[KLeapControl::LeapControl()[m[K’:
+[3.752s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:128:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+[3.752s]   128 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+[3.752s]       |                                        [01;35m[K^~[m[K
+[3.784s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[Kvoid LeapControl::carth_control()[m[K’:
+[3.784s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:507:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KUP[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.784s]   507 |             switch[01;35m[K([m[Kdir)
+[3.784s]       |                   [01;35m[K^[m[K
+[3.784s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:507:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KDOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.785s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:507:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_R[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.785s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:507:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_L[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.785s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:507:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNEUTRAL[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.785s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:534:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[3.785s]   534 |             [01;31m[K}[m[K
+[3.785s]       |             [01;31m[K^[m[K
+[3.786s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[Kvoid LeapControl::rpy_control()[m[K’:
+[3.786s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:628:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[3.786s]   628 |             [01;31m[K}[m[K
+[3.786s]       |             [01;31m[K^[m[K
+[13.827s] gmake[2]: *** [CMakeFiles/control.dir/build.make:76: CMakeFiles/control.dir/src/leap_control.cpp.o] Error 1
+[13.827s] gmake[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/control.dir/all] Error 2
+[13.828s] gmake: *** [Makefile:146: all] Error 2
+[13.831s] Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '2': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8

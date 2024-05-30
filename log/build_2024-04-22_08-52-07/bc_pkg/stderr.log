@@ -1,0 +1,25 @@
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:[m[K In lambda function:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:82:21:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+   82 |                     [01;35m[Kif[m[K(flight_check && arm_msg == true)
+      |                     [01;35m[K^~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:87:17:[m[K [01;36m[Knote: [m[Khere
+   87 |                 [01;36m[Kcase[m[K ARMING:
+      |                 [01;36m[K^~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:96:30:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+   96 |                     [01;35m[Kthis->arm()[m[K;
+      |                     [01;35m[K~~~~~~~~~^~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:98:17:[m[K [01;36m[Knote: [m[Khere
+   98 |                 [01;36m[Kcase[m[K TAKEOFF:
+      |                 [01;36m[K^~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:107:35:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+  107 |                     [01;35m[Kthis->take_off()[m[K;
+      |                     [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:111:17:[m[K [01;36m[Knote: [m[Khere
+  111 |                 [01;36m[Kcase[m[K LOITER:
+      |                 [01;36m[K^~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:120:30:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+  120 |                     [01;35m[Kthis->arm()[m[K;
+      |                     [01;35m[K~~~~~~~~~^~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:122:17:[m[K [01;36m[Knote: [m[Khere
+  122 |                 [01;36m[Kcase[m[K OFFBOARD:
+      |                 [01;36m[K^~~~[m[K

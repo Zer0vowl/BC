@@ -1,0 +1,41 @@
+[ 11%] Built target libExampleConnection
+[ 22%] [32mBuilding CXX object CMakeFiles/rpy.dir/src/rpy_pub.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/gesture_interface_node.dir/src/gesture_interface_node.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/leap_example_node.dir/src/leap_interface_example.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/carth.dir/src/carth_pub.cpp.o[0m
+[01m[K/home/flejv/bc_ws/src/leap_gesture_interface/src/gesture_interface_node.cpp:[m[K In constructor ‘[01m[KGestureInterfaceNode::GestureInterfaceNode()[m[K’:
+[01m[K/home/flejv/bc_ws/src/leap_gesture_interface/src/gesture_interface_node.cpp:63:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpublish_rate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   63 |         double [01;35m[Kpublish_rate[m[K = this->declare_parameter<double>("publish_rate", 10.0);
+      |                [01;35m[K^~~~~~~~~~~~[m[K
+[ 66%] [32m[1mLinking CXX executable leap_example_node[0m
+[ 66%] Built target leap_example_node
+[ 77%] [32m[1mLinking CXX executable gesture_interface_node[0m
+[ 88%] [32m[1mLinking CXX executable carth[0m
+[ 88%] Built target gesture_interface_node
+[ 88%] Built target carth
+[100%] [32m[1mLinking CXX executable rpy[0m
+[100%] Built target rpy
+-- Install configuration: ""
+-- Installing: /home/flejv/bc_ws/install/leap_gesture_interface/lib/leap_gesture_interface/gesture_interface_node
+-- Set runtime path of "/home/flejv/bc_ws/install/leap_gesture_interface/lib/leap_gesture_interface/gesture_interface_node" to ""
+-- Installing: /home/flejv/bc_ws/install/leap_gesture_interface/lib/leap_gesture_interface/leap_example_node
+-- Set runtime path of "/home/flejv/bc_ws/install/leap_gesture_interface/lib/leap_gesture_interface/leap_example_node" to ""
+-- Installing: /home/flejv/bc_ws/install/leap_gesture_interface/lib/leap_gesture_interface/carth
+-- Set runtime path of "/home/flejv/bc_ws/install/leap_gesture_interface/lib/leap_gesture_interface/carth" to ""
+-- Installing: /home/flejv/bc_ws/install/leap_gesture_interface/lib/leap_gesture_interface/rpy
+-- Set runtime path of "/home/flejv/bc_ws/install/leap_gesture_interface/lib/leap_gesture_interface/rpy" to ""
+-- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/ament_index/resource_index/package_run_dependencies/leap_gesture_interface
+-- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/ament_index/resource_index/parent_prefix_path/leap_gesture_interface
+-- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/environment/ament_prefix_path.sh
+-- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/environment/path.sh
+-- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/environment/path.dsv
+-- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/local_setup.bash
+-- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/local_setup.sh
+-- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/local_setup.zsh
+-- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/local_setup.dsv
+-- Installing: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/package.dsv
+-- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/ament_index/resource_index/packages/leap_gesture_interface
+-- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/cmake/leap_gesture_interfaceConfig.cmake
+-- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/cmake/leap_gesture_interfaceConfig-version.cmake
+-- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/package.xml

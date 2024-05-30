@@ -1,0 +1,68 @@
+[33mCMake Warning (dev) at CMakeLists.txt:63 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at CMakeLists.txt:66 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at CMakeLists.txt:69 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /home/flejv/bc_ws/src/bc_pkg/src/virtual_hand.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at CMakeLists.txt:72 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In constructor ‘[01m[KGesture::Gesture()[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:77:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+   77 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+      |                                        [01;35m[K^~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In member function ‘[01m[Kvoid Gesture::create_base_hand(const std::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >&, std::vector<float>&, hand_type&)[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:500:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  500 |         for(int i = 0; [01;35m[Ki < msg.size()[m[K; i++)
+      |                        [01;35m[K~~^~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In member function ‘[01m[Kbool Gesture::prepare_calibration_array(std::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >&, hand_type&)[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:793:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  793 |         for(int i = 0; [01;35m[Ki < pose_data.size()-1[m[K; i++)
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In constructor ‘[01m[KLeapControl::LeapControl()[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:129:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+  129 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+      |                                        [01;35m[K^~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[Kvoid LeapControl::carth_control()[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:523:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KUP[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+  523 |             switch[01;35m[K([m[Kdir)
+      |                   [01;35m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:523:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KDOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:523:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_R[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:523:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_L[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:523:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNEUTRAL[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[KDirection LeapControl::get_rpy_direction()[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:683:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  683 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K

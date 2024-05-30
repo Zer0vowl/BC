@@ -1,0 +1,85 @@
+[35m[1mConsolidate compiler generated dependencies of target control[0m
+[35m[1mConsolidate compiler generated dependencies of target gest[0m
+[ 25%] Built target hand
+[ 50%] Built target connect
+[ 62%] [32mBuilding CXX object CMakeFiles/control.dir/src/leap_control.cpp.o[0m
+[ 87%] Built target gest
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:578:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+  578 |         std::[01;31m[Kcout[m[K<<"Gesture data collected" << std::endl;
+      |              [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:6[m[K:
+[01m[K/usr/include/c++/11/iostream:61:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ declared here
+   61 |   extern ostream [01;36m[Kcout[m[K;          /// Linked to standard output
+      |                  [01;36m[K^~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:580:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  580 |         [01;31m[Kreturn[m[K true;
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:581:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+  581 |     }
+      |      [01;31m[K^[m[K
+      |      [32m[K;[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In constructor ‘[01m[KLeapControl::LeapControl()[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:128:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+  128 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+      |                                        [01;35m[K^~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In lambda function:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:180:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kinit_flag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  180 |                 int [01;35m[Kinit_flag[m[K = 1;
+      |                     [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:133:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KCONTROL[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+  133 |             switch[01;35m[K([m[Kcurrent_state)
+      |                   [01;35m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[Kvoid LeapControl::carth_control()[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:296:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KUP[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+  296 |             switch[01;35m[K([m[Kdir)
+      |                   [01;35m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:296:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KDOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:296:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_R[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:296:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_L[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:296:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNEUTRAL[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[KDirection LeapControl::get_rpy_direction()[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:456:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  456 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[Kvoid LeapControl::count_down()[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:569:47:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp::Time rclcpp::Node::now() const[m[K’
+  569 |                 if(duration_cast<seconds>([01;31m[Know - last_second_mark[m[K) >= seconds(1))
+      |                                           [01;31m[K~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1126:3:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1126 |   [01;36m[Know[m[K() const;
+      |   [01;36m[K^~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:571:40:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp::Time rclcpp::Node::now() const[m[K’
+  571 |                     last_second_mark = [01;31m[Know[m[K; // Update the last second mark to the current time
+      |                                        [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1126:3:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1126 |   [01;36m[Know[m[K() const;
+      |   [01;36m[K^~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:572:70:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp::Time rclcpp::Node::now() const[m[K’
+  572 |                     auto seconds_passed = duration_cast<seconds>([01;31m[Know - start[m[K).count();
+      |                                                                  [01;31m[K~~~~^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1126:3:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1126 |   [01;36m[Know[m[K() const;
+      |   [01;36m[K^~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K At global scope:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:586:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  586 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/control.dir/build.make:76: CMakeFiles/control.dir/src/leap_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

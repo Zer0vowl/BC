@@ -1,0 +1,4 @@
+[01m[K/home/flejv/bc_ws/src/leap_gesture_interface/src/gesture_interface_node.cpp:[m[K In constructor ‘[01m[KGestureInterfaceNode::GestureInterfaceNode()[m[K’:
+[01m[K/home/flejv/bc_ws/src/leap_gesture_interface/src/gesture_interface_node.cpp:63:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpublish_rate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   63 |         double [01;35m[Kpublish_rate[m[K = this->declare_parameter<double>("publish_rate", 10.0);
+      |                [01;35m[K^~~~~~~~~~~~[m[K

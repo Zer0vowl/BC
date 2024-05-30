@@ -1,0 +1,91 @@
+[0.085s] Invoking command in '/home/flejv/bc_ws/build/bc_pkg': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[0.269s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.773s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.942s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.965s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.990s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.019s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.056s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.127s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.254s] -- Found px4_msgs: 2.0.1 (/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/cmake)
+[1.330s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.439s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.452s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.833s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.139s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.317s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.514s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.733s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.735s] -- Configured cppcheck include dirs: 
+[2.735s] -- Configured cppcheck exclude dirs and/or files: 
+[2.737s] -- Added test 'lint_cmake' to check CMake code style
+[2.742s] -- Added test 'uncrustify' to check C / C++ code style
+[2.742s] -- Configured uncrustify additional arguments: 
+[2.743s] -- Added test 'xmllint' to check XML markup files
+[2.746s] -- Configuring done
+[2.750s] [33mCMake Warning (dev) at CMakeLists.txt:63 (add_executable):
+[2.751s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[2.751s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[2.751s]   command to set the policy and suppress this warning.
+[2.751s] 
+[2.751s]   File:
+[2.751s] 
+[2.751s]     /home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp
+[2.751s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.751s] [0m
+[2.752s] [31mCMake Error at CMakeLists.txt:66 (add_executable):
+[2.752s]   Cannot find source file:
+[2.752s] 
+[2.753s]     src/leap_control_copy
+[2.753s] 
+[2.753s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[2.753s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[2.753s] 
+[2.753s] [0m
+[2.753s] [33mCMake Warning (dev) at CMakeLists.txt:69 (add_executable):
+[2.753s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[2.753s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[2.754s]   command to set the policy and suppress this warning.
+[2.754s] 
+[2.754s]   File:
+[2.754s] 
+[2.754s]     /home/flejv/bc_ws/src/bc_pkg/src/virtual_hand.cpp
+[2.754s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.754s] [0m
+[2.754s] [33mCMake Warning (dev) at CMakeLists.txt:72 (add_executable):
+[2.754s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[2.755s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[2.755s]   command to set the policy and suppress this warning.
+[2.755s] 
+[2.755s]   File:
+[2.755s] 
+[2.755s]     /home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp
+[2.755s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.755s] [0m
+[2.755s] [33mCMake Warning (dev) at CMakeLists.txt:75 (add_executable):
+[2.756s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[2.756s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[2.756s]   command to set the policy and suppress this warning.
+[2.756s] 
+[2.756s]   File:
+[2.756s] 
+[2.756s]     /home/flejv/bc_ws/src/bc_pkg/src/rpy_pub.cpp
+[2.756s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.756s] [0m
+[2.756s] [33mCMake Warning (dev) at CMakeLists.txt:79 (add_executable):
+[2.756s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[2.757s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[2.757s]   command to set the policy and suppress this warning.
+[2.757s] 
+[2.757s]   File:
+[2.757s] 
+[2.757s]     /home/flejv/bc_ws/src/bc_pkg/src/carth_pub.cpp
+[2.757s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.757s] [0m
+[2.757s] [31mCMake Error at CMakeLists.txt:66 (add_executable):
+[2.757s]   No SOURCES given to target: control
+[2.757s] 
+[2.758s] [0m
+[2.758s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[2.765s] gmake: *** [Makefile:513: cmake_check_build_system] Error 1
+[2.771s] Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '2': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8

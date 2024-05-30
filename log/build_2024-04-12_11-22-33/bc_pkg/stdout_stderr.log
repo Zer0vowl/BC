@@ -1,0 +1,7 @@
+[31mCMake Error at CMakeLists.txt:17:
+  Parse error.  Expected "(", got identifier with text "LeapSDK".
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/flejv/bc_ws/build/bc_pkg/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:390: cmake_check_build_system] Error 1

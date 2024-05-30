@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target control[0m
+[ 25%] Built target connect
+[ 75%] Built target hand
+[ 75%] Built target gest
+[ 87%] [32mBuilding CXX object CMakeFiles/control.dir/src/leap_control.cpp.o[0m

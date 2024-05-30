@@ -1,0 +1,29 @@
+[0.285s] Invoking command in '/home/flejv/bc_ws/build/bc_pkg': AMENT_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/flejv/bc_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/flejv/bc_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[0.785s] [35m[1mConsolidate compiler generated dependencies of target control[0m
+[0.799s] [ 25%] Built target hand
+[0.848s] [ 50%] Built target control
+[0.857s] [ 75%] Built target gest
+[0.879s] [100%] Built target connect
+[0.908s] Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '0': AMENT_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/flejv/bc_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/flejv/bc_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[0.996s] Invoking command in '/home/flejv/bc_ws/build/bc_pkg': AMENT_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/flejv/bc_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/flejv/bc_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/flejv/bc_ws/build/bc_pkg
+[1.014s] -- Install configuration: ""
+[1.088s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/connect
+[1.168s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/control
+[1.209s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/hand
+[1.253s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/gest
+[1.276s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/ament_index/resource_index/package_run_dependencies/bc_pkg
+[1.290s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/ament_index/resource_index/parent_prefix_path/bc_pkg
+[1.291s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/ament_prefix_path.sh
+[1.291s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/ament_prefix_path.dsv
+[1.291s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/path.sh
+[1.292s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/path.dsv
+[1.292s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.bash
+[1.292s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.sh
+[1.293s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.zsh
+[1.293s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.dsv
+[1.293s] -- Installing: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.dsv
+[1.309s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/ament_index/resource_index/packages/bc_pkg
+[1.310s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/cmake/bc_pkgConfig.cmake
+[1.310s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/cmake/bc_pkgConfig-version.cmake
+[1.310s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.xml
+[1.316s] Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '0': AMENT_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/flejv/bc_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/flejv/bc_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/flejv/bc_ws/build/bc_pkg

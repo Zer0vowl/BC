@@ -1,0 +1,49 @@
+[0.117s] Invoking command in '/home/flejv/bc_ws/build/bc_pkg': AMENT_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/flejv/bc_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/flejv/bc_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[0.240s] [  7%] Built target libExampleConnection
+[0.300s] [ 23%] Built target gest
+[0.363s] [ 38%] Built target carth
+[0.425s] [ 53%] Built target rpy
+[0.483s] [ 69%] Built target hand
+[0.624s] [35m[1mConsolidate compiler generated dependencies of target control[0m
+[0.670s] [ 76%] [32mBuilding CXX object CMakeFiles/control.dir/src/leap_control.cpp.o[0m
+[6.849s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In constructor ‘[01m[KLeapControl::LeapControl()[m[K’:
+[6.849s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:141:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+[6.850s]   141 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+[6.850s]       |                                        [01;35m[K^~[m[K
+[6.903s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[Kvoid LeapControl::carth_control()[m[K’:
+[6.903s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:564:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KUP[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[6.903s]   564 |             switch[01;35m[K([m[Kdir)
+[6.903s]       |                   [01;35m[K^[m[K
+[6.904s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:564:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KDOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[6.904s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:564:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_R[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[6.904s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:564:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_L[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[6.904s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:564:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNEUTRAL[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[57.252s] [ 84%] [32m[1mLinking CXX executable control[0m
+[60.534s] [ 84%] Built target control
+[60.595s] [100%] Built target connect
+[60.620s] Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '0': AMENT_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/flejv/bc_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/flejv/bc_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[60.734s] Invoking command in '/home/flejv/bc_ws/build/bc_pkg': AMENT_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/flejv/bc_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/flejv/bc_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/flejv/bc_ws/build/bc_pkg
+[60.750s] -- Install configuration: ""
+[60.751s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/connect
+[60.751s] -- Installing: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/control
+[60.795s] -- Set runtime path of "/home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/control" to ""
+[60.795s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/hand
+[60.796s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/gest
+[60.796s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/rpy
+[60.797s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/carth
+[60.797s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/ament_index/resource_index/package_run_dependencies/bc_pkg
+[60.798s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/ament_index/resource_index/parent_prefix_path/bc_pkg
+[60.798s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/ament_prefix_path.sh
+[60.798s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/ament_prefix_path.dsv
+[60.798s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/path.sh
+[60.798s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/path.dsv
+[60.799s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.bash
+[60.799s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.sh
+[60.799s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.zsh
+[60.799s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.dsv
+[60.799s] -- Installing: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.dsv
+[60.799s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/ament_index/resource_index/packages/bc_pkg
+[60.800s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/cmake/bc_pkgConfig.cmake
+[60.800s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/cmake/bc_pkgConfig-version.cmake
+[60.800s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.xml
+[60.809s] Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '0': AMENT_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/flejv/bc_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/flejv/bc_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/flejv/bc_ws/build/bc_pkg

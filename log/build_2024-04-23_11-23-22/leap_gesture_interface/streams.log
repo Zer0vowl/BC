@@ -1,0 +1,29 @@
+[0.284s] Invoking command in '/home/flejv/bc_ws/build/leap_gesture_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/leap_gesture_interface -- -j8 -l8
+[0.994s] [ 11%] Built target libExampleConnection
+[1.173s] [ 33%] Built target gesture_interface_node
+[1.230s] [ 55%] Built target rpy
+[1.242s] [ 77%] Built target leap_example_node
+[1.253s] [100%] Built target carth
+[1.272s] Invoked command in '/home/flejv/bc_ws/build/leap_gesture_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/leap_gesture_interface -- -j8 -l8
+[1.346s] Invoking command in '/home/flejv/bc_ws/build/leap_gesture_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/flejv/bc_ws/build/leap_gesture_interface
+[1.376s] -- Install configuration: ""
+[1.784s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/lib/leap_gesture_interface/gesture_interface_node
+[1.891s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/lib/leap_gesture_interface/leap_example_node
+[2.375s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/lib/leap_gesture_interface/carth
+[2.436s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/lib/leap_gesture_interface/rpy
+[2.436s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/ament_index/resource_index/package_run_dependencies/leap_gesture_interface
+[2.437s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/ament_index/resource_index/parent_prefix_path/leap_gesture_interface
+[2.437s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/environment/ament_prefix_path.sh
+[2.438s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/environment/ament_prefix_path.dsv
+[2.438s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/environment/path.sh
+[2.439s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/environment/path.dsv
+[2.439s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/local_setup.bash
+[2.439s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/local_setup.sh
+[2.439s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/local_setup.zsh
+[2.439s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/local_setup.dsv
+[2.439s] -- Installing: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/package.dsv
+[2.543s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/ament_index/resource_index/packages/leap_gesture_interface
+[2.543s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/cmake/leap_gesture_interfaceConfig.cmake
+[2.543s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/cmake/leap_gesture_interfaceConfig-version.cmake
+[2.543s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/package.xml
+[2.547s] Invoked command in '/home/flejv/bc_ws/build/leap_gesture_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/flejv/bc_ws/build/leap_gesture_interface

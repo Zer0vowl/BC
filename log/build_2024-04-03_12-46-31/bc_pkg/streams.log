@@ -1,0 +1,44 @@
+[0.084s] Invoking command in '/home/flejv/bc_ws/build/bc_pkg': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[0.182s] [35m[1mConsolidate compiler generated dependencies of target gest[0m
+[0.194s] [ 25%] Built target control
+[0.198s] [ 50%] Built target hand
+[0.199s] [ 75%] Built target connect
+[0.213s] [ 87%] [32mBuilding CXX object CMakeFiles/gest.dir/src/gesture.cpp.o[0m
+[3.475s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In constructor ‘[01m[KGesture::Gesture()[m[K’:
+[3.476s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:77:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+[3.476s]    77 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+[3.476s]       |                                        [01;35m[K^~[m[K
+[3.492s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In member function ‘[01m[Kvoid Gesture::create_base_hand(const std::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >&, std::vector<float>&, hand_type&)[m[K’:
+[3.492s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:502:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.493s]   502 |         for(int i = 0; [01;35m[Ki < msg.size()[m[K; i++)
+[3.493s]       |                        [01;35m[K~~^~~~~~~~~~~~[m[K
+[3.502s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In member function ‘[01m[Kbool Gesture::prepare_calibration_array(std::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >&, hand_type&)[m[K’:
+[3.503s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:795:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.503s]   795 |         for(int i = 0; [01;35m[Ki < pose_data.size()-1[m[K; i++)
+[3.503s]       |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[11.358s] [100%] [32m[1mLinking CXX executable gest[0m
+[12.123s] [100%] Built target gest
+[12.144s] Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '0': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[12.208s] Invoking command in '/home/flejv/bc_ws/build/bc_pkg': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/opt/ros/humble /usr/bin/cmake --install /home/flejv/bc_ws/build/bc_pkg
+[12.220s] -- Install configuration: ""
+[12.220s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/connect
+[12.220s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/control
+[12.221s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/hand
+[12.221s] -- Installing: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/gest
+[12.230s] -- Set runtime path of "/home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/gest" to ""
+[12.231s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/ament_index/resource_index/package_run_dependencies/bc_pkg
+[12.231s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/ament_index/resource_index/parent_prefix_path/bc_pkg
+[12.231s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/ament_prefix_path.sh
+[12.231s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/ament_prefix_path.dsv
+[12.231s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/path.sh
+[12.231s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/path.dsv
+[12.232s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.bash
+[12.232s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.sh
+[12.232s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.zsh
+[12.232s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.dsv
+[12.232s] -- Installing: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.dsv
+[12.232s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/ament_index/resource_index/packages/bc_pkg
+[12.232s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/cmake/bc_pkgConfig.cmake
+[12.232s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/cmake/bc_pkgConfig-version.cmake
+[12.233s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.xml
+[12.235s] Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '0': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/opt/ros/humble /usr/bin/cmake --install /home/flejv/bc_ws/build/bc_pkg

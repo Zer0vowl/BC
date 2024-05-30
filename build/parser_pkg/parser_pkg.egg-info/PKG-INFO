@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: parser_pkg
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: flejv
+Maintainer-email: erkoj.jirkakutyka@gmail.com
+License: Apache-2.0
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: matplotlib

@@ -1,0 +1,32 @@
+[0.084s] Invoking command in '/home/flejv/bc_ws/build/bc_pkg': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target control[0m
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target gest[0m
+[0.158s] [  7%] Built target libExampleConnection
+[0.162s] [ 23%] Built target hand
+[0.163s] [ 38%] Built target connect
+[0.177s] [ 46%] [32mBuilding CXX object CMakeFiles/control.dir/src/leap_control.cpp.o[0m
+[0.180s] [ 61%] Built target gest
+[0.200s] [ 76%] Built target rpy
+[0.206s] [ 92%] Built target carth
+[3.825s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:797:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid LeapControl::reset_callback(std_msgs::msg::Bool)[m[K’ cannot be overloaded with ‘[01m[Kvoid LeapControl::reset_callback(std_msgs::msg::Bool)[m[K’
+[3.825s]   797 |     void [01;31m[Kreset_callback[m[K(std_msgs::msg::Bool msg)
+[3.826s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.826s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:793:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid LeapControl::reset_callback(std_msgs::msg::Bool)[m[K’
+[3.826s]   793 |     void [01;36m[Kreset_callback[m[K(std_msgs::msg::Bool msg)
+[3.826s]       |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[3.882s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In constructor ‘[01m[KLeapControl::LeapControl()[m[K’:
+[3.882s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:137:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+[3.882s]   137 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+[3.883s]       |                                        [01;35m[K^~[m[K
+[3.917s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[Kvoid LeapControl::carth_control()[m[K’:
+[3.918s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:560:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KUP[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.918s]   560 |             switch[01;35m[K([m[Kdir)
+[3.918s]       |                   [01;35m[K^[m[K
+[3.918s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:560:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KDOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.918s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:560:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_R[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.918s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:560:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_L[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.918s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:560:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNEUTRAL[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[12.760s] gmake[2]: *** [CMakeFiles/control.dir/build.make:76: CMakeFiles/control.dir/src/leap_control.cpp.o] Error 1
+[12.760s] gmake[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/control.dir/all] Error 2
+[12.761s] gmake: *** [Makefile:146: all] Error 2
+[12.765s] Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '2': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8

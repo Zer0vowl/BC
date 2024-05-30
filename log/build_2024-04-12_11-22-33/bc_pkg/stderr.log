@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:17:
+  Parse error.  Expected "(", got identifier with text "LeapSDK".
+
+[0m
+gmake: *** [Makefile:390: cmake_check_build_system] Error 1

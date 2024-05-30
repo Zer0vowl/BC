@@ -1,0 +1,269 @@
+[35m[1mConsolidate compiler generated dependencies of target control[0m
+[ 25%] Built target hand
+[ 62%] Built target gest
+[ 62%] [32mBuilding CXX object CMakeFiles/control.dir/src/leap_control.cpp.o[0m
+[ 87%] Built target connect
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:213:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgesture_timer[m[K’ does not name a type
+  213 |         [01;31m[Kgesture_timer[m[K = this->create_wall_timer(20ms, gesture_callback);
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:215:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+  215 |     }
+      |      [01;31m[K^[m[K
+      |      [32m[K;[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In constructor ‘[01m[KLeapControl::LeapControl()[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:41:43:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KLeapControl[m[K’ does not have any field named ‘[01m[Kdata_file[m[K’
+   41 |     LeapControl() : Node("leap_control"), [01;31m[Kdata_file[m[K("flight_data.txt")
+      |                                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:58:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpalm_sub[m[K’ was not declared in this scope
+   58 |         [01;31m[Kpalm_sub[m[K= this->create_subscription
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:60:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kpalm_callback[m[K’ is not a member of ‘[01m[KLeapControl[m[K’
+   60 |             std::bind(&LeapControl::[01;31m[Kpalm_callback[m[K, this, std::placeholders::_1));
+      |                                     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:62:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_sub_r[m[K’ was not declared in this scope
+   62 |         [01;31m[Kpose_sub_r[m[K= this->create_subscription
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:64:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_callback_r[m[K’ is not a member of ‘[01m[KLeapControl[m[K’
+   64 |             std::bind(&LeapControl::[01;31m[Kpose_callback_r[m[K, this, std::placeholders::_1));
+      |                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:66:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_sub_l[m[K’ was not declared in this scope
+   66 |         [01;31m[Kpose_sub_l[m[K= this->create_subscription
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:68:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_callback_l[m[K’ is not a member of ‘[01m[KLeapControl[m[K’
+   68 |             std::bind(&LeapControl::[01;31m[Kpose_callback_l[m[K, this, std::placeholders::_1));
+      |                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:70:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krpy_sub[m[K’ was not declared in this scope
+   70 |         [01;31m[Krpy_sub[m[K = this->create_subscription
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:72:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_rpy[m[K’ is not a member of ‘[01m[KLeapControl[m[K’
+   72 |             std::bind(&LeapControl::[01;31m[Kget_rpy[m[K, this, std::placeholders::_1));
+      |                                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:74:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgest_sub_r[m[K’ was not declared in this scope
+   74 |         [01;31m[Kgest_sub_r[m[K = this->create_subscription
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:76:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_gest_r[m[K’ is not a member of ‘[01m[KLeapControl[m[K’
+   76 |             std::bind(&LeapControl::[01;31m[Kget_gest_r[m[K, this, std::placeholders::_1));
+      |                                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:77:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgest_sub_l[m[K’ was not declared in this scope
+   77 |         [01;31m[Kgest_sub_l[m[K = this->create_subscription
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:79:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_gest_l[m[K’ is not a member of ‘[01m[KLeapControl[m[K’
+   79 |             std::bind(&LeapControl::[01;31m[Kget_gest_l[m[K, this, std::placeholders::_1));
+      |                                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:80:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krpy_points_sub[m[K’ was not declared in this scope
+   80 |         [01;31m[Krpy_points_sub[m[K = this->create_subscription
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:82:37:[m[K [01;31m[Kerror: [m[K‘[01m[Krpy_points_callback[m[K’ is not a member of ‘[01m[KLeapControl[m[K’
+   82 |             std::bind(&LeapControl::[01;31m[Krpy_points_callback[m[K, this, std::placeholders::_1));
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:83:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcalibrated_r_sub[m[K’ was not declared in this scope
+   83 |         [01;31m[Kcalibrated_r_sub[m[K = this->create_subscription
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:85:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kcalibrated_r_callback[m[K’ is not a member of ‘[01m[KLeapControl[m[K’
+   85 |             std::bind(&LeapControl::[01;31m[Kcalibrated_r_callback[m[K, this, std::placeholders::_1));
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:86:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcalibrated_l_sub[m[K’ was not declared in this scope
+   86 |         [01;31m[Kcalibrated_l_sub[m[K = this->create_subscription
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:88:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kcalibrated_l_callback[m[K’ is not a member of ‘[01m[KLeapControl[m[K’
+   88 |             std::bind(&LeapControl::[01;31m[Kcalibrated_l_callback[m[K, this, std::placeholders::_1));
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:90:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_pub[m[K’ was not declared in this scope
+   90 |         [01;31m[Kvelocity_pub[m[K = this->create_publisher
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:93:9:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_pub[m[K’ was not declared in this scope
+   93 |         [01;31m[Karm_pub[m[K = this->create_publisher
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:96:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_state[m[K’ was not declared in this scope
+   96 |         [01;31m[Kcurrent_state[m[K = CALIBRATING;
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:97:9:[m[K [01;31m[Kerror: [m[K‘[01m[Keval_flag[m[K’ was not declared in this scope
+   97 |         [01;31m[Keval_flag[m[K = 1;
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:98:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kread_gest_counter[m[K’ was not declared in this scope
+   98 |         [01;31m[Kread_gest_counter[m[K = 0;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:100:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed[m[K’ was not declared in this scope
+  100 |         [01;31m[Kspeed[m[K = 1;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:101:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kturn_angle[m[K’ was not declared in this scope
+  101 |         [01;31m[Kturn_angle[m[K = 1;
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:102:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+  102 |         [01;31m[Kx[m[K = 0.0;
+      |         [01;31m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:103:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+  103 |         [01;31m[Ky[m[K = 0.0;
+      |         [01;31m[K^[m[K
+      |         [32m[Kyn[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:104:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kz[m[K’ was not declared in this scope
+  104 |         [01;31m[Kz[m[K = 0.0;
+      |         [01;31m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:105:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kw[m[K’ was not declared in this scope
+  105 |         [01;31m[Kw[m[K = 0.0;
+      |         [01;31m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:107:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_val[m[K’ was not declared in this scope
+  107 |         [01;31m[Kx_val[m[K = 0.0;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:108:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_val[m[K’ was not declared in this scope
+  108 |         [01;31m[Ky_val[m[K = 0.0;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:109:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kz_val[m[K’ was not declared in this scope
+  109 |         [01;31m[Kz_val[m[K = 0.0;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:110:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kw_val[m[K’ was not declared in this scope
+  110 |         [01;31m[Kw_val[m[K = 0.0;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:112:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_mode[m[K’ was not declared in this scope
+  112 |        [01;31m[Kcurrent_mode[m[K = "MODE_1";
+      |        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:115:8:[m[K [01;31m[Kerror: [m[K‘[01m[Klin_coord_map[m[K’ was not declared in this scope
+  115 |        [01;31m[Klin_coord_map[m[K =
+      |        [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:128:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+  128 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+      |                                        [01;35m[K^~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In lambda function:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:130:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kgest_r[m[K’ was not declared in this scope
+  130 |             std::string gesture_right = [01;31m[Kgest_r[m[K;
+      |                                         [01;31m[K^~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:131:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kgest_l[m[K’ was not declared in this scope
+  131 |             std::string gesture_left = [01;31m[Kgest_l[m[K;
+      |                                        [01;31m[K^~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:133:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_state[m[K’ is not captured
+  133 |             switch([01;31m[Kcurrent_state[m[K)
+      |                    [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:128:38:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  128 |         auto gesture_callback = [this[01;36m[K][m[K -> void
+      |                                      [01;36m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:96:9:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>current_state[m[K’ declared here
+   96 |         [01;36m[Kcurrent_state[m[K = CALIBRATING;
+      |         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:136:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kcalibrated_r[m[K’ was not declared in this scope
+  136 |                     if([01;31m[Kcalibrated_r[m[K == true && calibrated_l == true)
+      |                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:136:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kcalibrated_l[m[K’ was not declared in this scope
+  136 |                     if(calibrated_r == true && [01;31m[Kcalibrated_l[m[K == true)
+      |                                                [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:139:28:[m[K [01;31m[Kerror: [m[K‘[01m[Keval_flag[m[K’ is not captured
+  139 |                         if([01;31m[Keval_flag[m[K == 1)
+      |                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:128:38:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  128 |         auto gesture_callback = [this[01;36m[K][m[K -> void
+      |                                      [01;36m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:97:9:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>eval_flag[m[K’ declared here
+   97 |         [01;36m[Keval_flag[m[K = 1;
+      |         [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:141:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_state[m[K’ is not captured
+  141 |                             [01;31m[Kcurrent_state[m[K = EVALUATING_DATA;
+      |                             [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:128:38:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  128 |         auto gesture_callback = [this[01;36m[K][m[K -> void
+      |                                      [01;36m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:96:9:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>current_state[m[K’ declared here
+   96 |         [01;36m[Kcurrent_state[m[K = CALIBRATING;
+      |         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:147:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_state[m[K’ is not captured
+  147 |                             [01;31m[Kcurrent_state[m[K = CONTROL;
+      |                             [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:128:38:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  128 |         auto gesture_callback = [this[01;36m[K][m[K -> void
+      |                                      [01;36m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:96:9:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>current_state[m[K’ declared here
+   96 |         [01;36m[Kcurrent_state[m[K = CALIBRATING;
+      |         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:152:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kcalibrated_r[m[K’ was not declared in this scope
+  152 |                     if([01;31m[Kcalibrated_r[m[K == false)
+      |                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:164:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kcalibrated_l[m[K’ was not declared in this scope
+  164 |                     if([01;31m[Kcalibrated_l[m[K == false)
+      |                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:183:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_file[m[K’ was not declared in this scope
+  183 |                 if (![01;31m[Kdata_file[m[K.is_open())
+      |                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:179:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Keval_stage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  179 |                 int [01;35m[Keval_stage[m[K = 1;
+      |                     [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:180:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kinit_flag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  180 |                 int [01;35m[Kinit_flag[m[K = 1;
+      |                     [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:200:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrone_command[m[K’ was not declared in this scope
+  200 |             std::cout << [01;31m[Kdrone_command[m[K << "COMMAND" << std::endl;
+      |                          [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:201:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_mode[m[K’ is not captured
+  201 |             std::cout << [01;31m[Kcurrent_mode[m[K << "MODE" << std::endl;
+      |                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:128:38:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  128 |         auto gesture_callback = [this[01;36m[K][m[K -> void
+      |                                      [01;36m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:112:8:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>current_mode[m[K’ declared here
+  112 |        [01;36m[Kcurrent_mode[m[K = "MODE_1";
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:202:26:[m[K [01;31m[Kerror: [m[K‘[01m[Krpy[m[K’ was not declared in this scope
+  202 |             std::cout << [01;31m[Krpy[m[K.x << "R" << std::endl;
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:205:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_r[m[K’ was not declared in this scope
+  205 |             std::cout << [01;31m[Kpose_r[m[K.poses.at(0).position.x << "X" << std::endl;
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:208:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed[m[K’ is not captured
+  208 |             std::cout<<"SPEED"<<std::to_string([01;31m[Kspeed[m[K)<<std::endl;
+      |                                                [01;31m[K^~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:128:38:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  128 |         auto gesture_callback = [this[01;36m[K][m[K -> void
+      |                                      [01;36m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:100:9:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>speed[m[K’ declared here
+  100 |         [01;36m[Kspeed[m[K = 1;
+      |         [01;36m[K^~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In constructor ‘[01m[KLeapControl::LeapControl()[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:212:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  212 |     [01;31m[K}[m[K;
+      |     [01;31m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K At global scope:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:216:5:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[K~ LeapControl[m[K’ as non-member
+  216 |     [01;31m[K~LeapControl[m[K() {
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:223:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+  223 |     [01;31m[Kprivate[m[K:
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In function ‘[01m[Kvoid carth_control()[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:295:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_carth_direction[m[K’ was not declared in this scope
+  295 |             Direction dir = [01;31m[Kget_carth_direction[m[K(x,y,palm_data.position.z,palm_data.position.x,0.025);
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:297:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KUP[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+  297 |             switch[01;35m[K([m[Kdir)
+      |                   [01;35m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:297:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KDOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:297:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_R[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:297:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_L[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:297:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNEUTRAL[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In function ‘[01m[KDirection get_rpy_direction()[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:457:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  457 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In function ‘[01m[Kvoid write_data_to_file(std::string, std::string, std::string)[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:493:9:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  493 |         [01;31m[Kthis[m[K->data_file << hand_type;
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:494:9:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  494 |         [01;31m[Kthis[m[K->data_file << current_gest;
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:495:9:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  495 |         [01;31m[Kthis[m[K->data_file << gesture_check(desired_gest, current_gest);
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:495:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kgesture_check[m[K’ was not declared in this scope
+  495 |         this->data_file << [01;31m[Kgesture_check[m[K(desired_gest, current_gest);
+      |                            [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:502:9:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  502 |         [01;31m[Kthis[m[K->data_file << std::endl;
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In function ‘[01m[Kbool collect_gesture_data(std::string, std::string, std::string, std::string)[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:551:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kread_flag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  551 |         int [01;35m[Kread_flag[m[K = 0;
+      |             [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K At global scope:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:580:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  580 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/control.dir/build.make:76: CMakeFiles/control.dir/src/leap_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

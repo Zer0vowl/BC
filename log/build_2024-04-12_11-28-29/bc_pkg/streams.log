@@ -1,0 +1,173 @@
+[0.078s] Invoking command in '/home/flejv/bc_ws/build/bc_pkg': AMENT_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/flejv/bc_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/flejv/bc_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[0.148s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.473s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.534s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.540s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.555s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.582s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.615s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.643s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.846s] -- Found px4_msgs: 2.0.1 (/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/cmake)
+[1.008s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.109s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.112s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.394s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.647s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.845s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.120s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.407s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.413s] -- Configured cppcheck include dirs: 
+[2.413s] -- Configured cppcheck exclude dirs and/or files: 
+[2.415s] -- Added test 'lint_cmake' to check CMake code style
+[2.420s] -- Added test 'uncrustify' to check C / C++ code style
+[2.420s] -- Configured uncrustify additional arguments: 
+[2.422s] -- Added test 'xmllint' to check XML markup files
+[2.427s] -- Configuring done
+[2.442s] [33mCMake Warning (dev) at CMakeLists.txt:63 (add_executable):
+[2.443s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[2.443s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[2.443s]   command to set the policy and suppress this warning.
+[2.444s] 
+[2.444s]   File:
+[2.444s] 
+[2.444s]     /home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp
+[2.445s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.445s] [0m
+[2.447s] [33mCMake Warning (dev) at CMakeLists.txt:66 (add_executable):
+[2.448s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[2.448s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[2.448s]   command to set the policy and suppress this warning.
+[2.448s] 
+[2.448s]   File:
+[2.449s] 
+[2.449s]     /home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp
+[2.450s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.450s] [0m
+[2.450s] [33mCMake Warning (dev) at CMakeLists.txt:69 (add_executable):
+[2.450s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[2.451s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[2.451s]   command to set the policy and suppress this warning.
+[2.451s] 
+[2.451s]   File:
+[2.452s] 
+[2.452s]     /home/flejv/bc_ws/src/bc_pkg/src/virtual_hand.cpp
+[2.452s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.452s] [0m
+[2.453s] [33mCMake Warning (dev) at CMakeLists.txt:72 (add_executable):
+[2.453s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[2.453s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[2.453s]   command to set the policy and suppress this warning.
+[2.454s] 
+[2.454s]   File:
+[2.454s] 
+[2.454s]     /home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp
+[2.455s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.455s] [0m
+[2.455s] [33mCMake Warning (dev) at CMakeLists.txt:75 (add_executable):
+[2.455s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[2.455s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[2.456s]   command to set the policy and suppress this warning.
+[2.456s] 
+[2.456s]   File:
+[2.456s] 
+[2.457s]     /home/flejv/bc_ws/src/bc_pkg/src/rpy_pub.cpp
+[2.457s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.457s] [0m
+[2.522s] -- Generating done
+[2.528s] -- Build files have been written to: /home/flejv/bc_ws/build/bc_pkg
+[2.604s] [  9%] [32mBuilding C object CMakeFiles/libExampleConnection.dir/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c.o[0m
+[2.606s] [35m[1mConsolidate compiler generated dependencies of target connect[0m
+[2.617s] [35m[1mConsolidate compiler generated dependencies of target hand[0m
+[2.634s] [35m[1mConsolidate compiler generated dependencies of target control[0m
+[2.650s] [35m[1mConsolidate compiler generated dependencies of target gest[0m
+[2.661s] [ 18%] [32mBuilding CXX object CMakeFiles/connect.dir/src/communication_hub.cpp.o[0m
+[2.671s] [ 27%] [32mBuilding CXX object CMakeFiles/hand.dir/src/virtual_hand.cpp.o[0m
+[2.686s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:[m[K In function ‘[01m[KhandleConnectionEvent[m[K’:
+[2.687s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:109:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kconnection_event[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.687s]   109 | tic void handleConnectionEvent([01;35m[Kconst LEAP_CONNECTION_EVENT *connection_event[m[K){
+[2.688s]       |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[2.688s] 
+[2.689s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:[m[K In function ‘[01m[KhandleConnectionLostEvent[m[K’:
+[2.689s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:117:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kconnection_lost_event[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.690s]   117 | handleConnectionLostEvent([01;35m[Kconst LEAP_CONNECTION_LOST_EVENT *connection_lost_event[m[K){
+[2.690s]       |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.690s] 
+[2.691s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:[m[K In function ‘[01m[KhandleDeviceEvent[m[K’:
+[2.692s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:138:3:[m[K [01;35m[Kwarning: [m[Kmissing initializer for field ‘[01m[Kstatus[m[K’ of ‘[01m[KLEAP_DEVICE_INFO[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.692s]   138 |   [01;35m[KLEAP_DEVICE_INFO[m[K deviceProperties = { sizeof(deviceProperties) };
+[2.692s]       |   [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[2.693s] [ 36%] [32mBuilding CXX object CMakeFiles/control.dir/src/leap_control.cpp.o[0m
+[2.693s] In file included from [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.h:13[m[K,
+[2.693s]                  from [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:10[m[K:
+[2.693s] [01m[K/usr/include/LeapC.h:1030:12:[m[K [01;36m[Knote: [m[K‘[01m[Kstatus[m[K’ declared here
+[2.694s]  1030 |   uint32_t [01;36m[Kstatus[m[K;
+[2.694s]       |            [01;36m[K^~~~~~[m[K
+[2.694s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:[m[K In function ‘[01m[KhandleDeviceLostEvent[m[K’:
+[2.694s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:166:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice_event[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.695s]   166 | static void handleDeviceLostEvent([01;35m[Kconst LEAP_DEVICE_EVENT *device_event[m[K){
+[2.695s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[2.695s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:[m[K In function ‘[01m[KserviceMessageLoop[m[K’:
+[2.696s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:266:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kunused[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.696s]   266 | static void* serviceMessageLoop([01;35m[Kvoid * unused[m[K){
+[2.696s]       |                                 [01;35m[K~~~~~~~^~~~~~[m[K
+[2.718s] [ 45%] [32mBuilding CXX object CMakeFiles/gest.dir/src/gesture.cpp.o[0m
+[2.783s] [ 45%] Built target libExampleConnection
+[2.848s] [ 54%] [32mBuilding CXX object CMakeFiles/rpy.dir/src/rpy_pub.cpp.o[0m
+[9.158s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In constructor ‘[01m[KGesture::Gesture()[m[K’:
+[9.159s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:78:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+[9.159s]    78 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+[9.159s]       |                                        [01;35m[K^~[m[K
+[9.194s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In member function ‘[01m[Kvoid Gesture::create_base_hand(const std::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >&, std::vector<float>&, hand_type&)[m[K’:
+[9.195s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:512:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[9.195s]   512 |         for(int i = 0; [01;35m[Ki < msg.size()[m[K; i++)
+[9.196s]       |                        [01;35m[K~~^~~~~~~~~~~~[m[K
+[9.218s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In member function ‘[01m[Kbool Gesture::prepare_calibration_array(std::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >&, hand_type&)[m[K’:
+[9.219s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:787:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[9.221s]   787 |         for(int i = 0; [01;35m[Ki < pose_data.size()-1[m[K; i++)
+[9.222s]       |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[10.256s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:734:10:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kear[m[K’ declared void
+[10.258s]   734 |     void [01;31m[Kear[m[K
+[10.258s]       |          [01;31m[K^~~[m[K
+[10.258s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:734:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[10.258s]   734 |     void [01;31m[Kear[m[K
+[10.258s]       |          [01;31m[K^~~[m[K
+[10.259s]       |             [32m[K;[m[K
+[10.259s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:735:5:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kmode_switch[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[10.259s]   735 |     [01;31m[Kmode_switch[m[K(std::string gesture_l)
+[10.259s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[10.386s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In constructor ‘[01m[KLeapControl::LeapControl()[m[K’:
+[10.386s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:131:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+[10.386s]   131 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+[10.387s]       |                                        [01;35m[K^~[m[K
+[10.461s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[Kvoid LeapControl::carth_control()[m[K’:
+[10.462s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:512:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KUP[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[10.462s]   512 |             switch[01;35m[K([m[Kdir)
+[10.462s]       |                   [01;35m[K^[m[K
+[10.463s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:512:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KDOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[10.463s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:512:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_R[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[10.463s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:512:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_L[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[10.463s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:512:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNEUTRAL[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[10.474s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[Kint LeapControl::mode_switch(std::string)[m[K’:
+[10.474s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:751:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[10.474s]   751 |     [01;35m[K}[m[K
+[10.475s]       |     [01;35m[K^[m[K
+[16.348s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In lambda function:
+[16.349s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:93:37:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+[16.349s]    93 |                     [01;35m[Kcalibration_flg = COLLECTING_DATA_R[m[K;
+[16.349s]       |                     [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[16.349s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:95:17:[m[K [01;36m[Knote: [m[Khere
+[16.350s]    95 |                 [01;36m[Kcase[m[K COLLECTING_DATA_R:
+[16.350s]       |                 [01;36m[K^~~~[m[K
+[23.276s] [ 63%] [32m[1mLinking CXX executable hand[0m
+[24.910s] [ 63%] Built target hand
+[25.945s] gmake[2]: *** [CMakeFiles/control.dir/build.make:76: CMakeFiles/control.dir/src/leap_control.cpp.o] Error 1
+[25.945s] gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/control.dir/all] Error 2
+[25.945s] gmake[1]: *** Waiting for unfinished jobs....
+[26.966s] [ 72%] [32m[1mLinking CXX executable gest[0m
+[27.956s] [ 72%] Built target gest
+[29.337s] [ 81%] [32m[1mLinking CXX executable rpy[0m
+[30.419s] [ 81%] Built target rpy
+[40.083s] [ 90%] [32m[1mLinking CXX executable connect[0m
+[41.795s] [ 90%] Built target connect
+[41.798s] gmake: *** [Makefile:146: all] Error 2
+[41.802s] Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '2': AMENT_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/flejv/bc_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/flejv/bc_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8

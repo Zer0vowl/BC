@@ -1,0 +1,50 @@
+[0.087s] Invoking command in '/home/flejv/bc_ws/build/bc_pkg': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[0.153s] [35m[1mConsolidate compiler generated dependencies of target control[0m
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target gest[0m
+[0.164s] [  7%] Built target libExampleConnection
+[0.172s] [ 38%] Built target hand
+[0.172s] [ 38%] Built target connect
+[0.186s] [ 46%] [32mBuilding CXX object CMakeFiles/control.dir/src/leap_control.cpp.o[0m
+[0.192s] [ 53%] [32mBuilding CXX object CMakeFiles/gest.dir/src/gesture.cpp.o[0m
+[0.204s] [ 69%] Built target rpy
+[0.208s] [ 84%] Built target carth
+[3.516s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In constructor ‘[01m[KGesture::Gesture()[m[K’:
+[3.516s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:87:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+[3.517s]    87 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+[3.517s]       |                                        [01;35m[K^~[m[K
+[3.539s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In member function ‘[01m[Kvoid Gesture::create_base_hand(const std::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >&, std::vector<float>&, hand_type&)[m[K’:
+[3.539s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:546:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.539s]   546 |         for(int i = 0; [01;35m[Ki < msg.size()[m[K; i++)
+[3.539s]       |                        [01;35m[K~~^~~~~~~~~~~~[m[K
+[3.552s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In member function ‘[01m[Kbool Gesture::prepare_calibration_array(std::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >&, hand_type&)[m[K’:
+[3.553s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:821:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.553s]   821 |         for(int i = 0; [01;35m[Ki < pose_data.size()-1[m[K; i++)
+[3.553s]       |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[4.125s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:504:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.125s]   504 |     bool [01;31m[Kcalibrated[m[K
+[4.125s]       |          [01;31m[K^~~~~~~~~~[m[K
+[4.125s]       |                    [32m[K;[m[K
+[4.212s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:797:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid LeapControl::reset_callback(std_msgs::msg::Bool)[m[K’ cannot be overloaded with ‘[01m[Kvoid LeapControl::reset_callback(std_msgs::msg::Bool)[m[K’
+[4.212s]   797 |     void [01;31m[Kreset_callback[m[K(std_msgs::msg::Bool msg)
+[4.212s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.212s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:793:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid LeapControl::reset_callback(std_msgs::msg::Bool)[m[K’
+[4.212s]   793 |     void [01;36m[Kreset_callback[m[K(std_msgs::msg::Bool msg)
+[4.213s]       |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.270s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In constructor ‘[01m[KLeapControl::LeapControl()[m[K’:
+[4.270s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:137:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+[4.270s]   137 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+[4.270s]       |                                        [01;35m[K^~[m[K
+[4.304s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[Kvoid LeapControl::carth_control()[m[K’:
+[4.305s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:560:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KUP[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[4.305s]   560 |             switch[01;35m[K([m[Kdir)
+[4.305s]       |                   [01;35m[K^[m[K
+[4.305s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:560:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KDOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[4.305s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:560:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_R[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[4.305s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:560:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_L[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[4.305s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:560:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNEUTRAL[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[12.873s] [ 92%] [32m[1mLinking CXX executable gest[0m
+[13.643s] [ 92%] Built target gest
+[14.212s] gmake[2]: *** [CMakeFiles/control.dir/build.make:76: CMakeFiles/control.dir/src/leap_control.cpp.o] Error 1
+[14.212s] gmake[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/control.dir/all] Error 2
+[14.213s] gmake: *** [Makefile:146: all] Error 2
+[14.217s] Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '2': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8

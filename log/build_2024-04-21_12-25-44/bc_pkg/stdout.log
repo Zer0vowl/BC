@@ -1,0 +1,46 @@
+[  7%] [32mBuilding C object CMakeFiles/libExampleConnection.dir/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c.o[0m
+[  7%] Built target libExampleConnection
+[ 15%] [32mBuilding CXX object CMakeFiles/gest.dir/src/gesture.cpp.o[0m
+[ 23%] [32m[1mLinking CXX executable gest[0m
+[ 23%] Built target gest
+[ 30%] [32mBuilding CXX object CMakeFiles/carth.dir/src/carth_pub.cpp.o[0m
+[ 38%] [32m[1mLinking CXX executable carth[0m
+[ 38%] Built target carth
+[ 46%] [32mBuilding CXX object CMakeFiles/rpy.dir/src/rpy_pub.cpp.o[0m
+[ 53%] [32m[1mLinking CXX executable rpy[0m
+[ 53%] Built target rpy
+[ 61%] [32mBuilding CXX object CMakeFiles/hand.dir/src/virtual_hand.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable hand[0m
+[ 69%] Built target hand
+[35m[1mConsolidate compiler generated dependencies of target control[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/control.dir/src/leap_control.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable control[0m
+[ 84%] Built target control
+[100%] Built target connect
+-- Install configuration: ""
+-- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/connect
+-- Installing: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/control
+-- Set runtime path of "/home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/control" to ""
+-- Installing: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/hand
+-- Set runtime path of "/home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/hand" to ""
+-- Installing: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/gest
+-- Set runtime path of "/home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/gest" to ""
+-- Installing: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/rpy
+-- Set runtime path of "/home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/rpy" to ""
+-- Installing: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/carth
+-- Set runtime path of "/home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/carth" to ""
+-- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/ament_index/resource_index/package_run_dependencies/bc_pkg
+-- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/ament_index/resource_index/parent_prefix_path/bc_pkg
+-- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/path.sh
+-- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/path.dsv
+-- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.bash
+-- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.sh
+-- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.zsh
+-- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.dsv
+-- Installing: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.dsv
+-- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/ament_index/resource_index/packages/bc_pkg
+-- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/cmake/bc_pkgConfig.cmake
+-- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/cmake/bc_pkgConfig-version.cmake
+-- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.xml

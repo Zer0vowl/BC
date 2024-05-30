@@ -1,0 +1,35 @@
+[0.106s] Invoking command in '/home/flejv/bc_ws/build/bc_pkg': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[0.173s] [35m[1mConsolidate compiler generated dependencies of target control[0m
+[0.192s] [ 25%] Built target hand
+[0.199s] [ 50%] Built target connect
+[0.202s] [ 75%] Built target gest
+[0.207s] [ 87%] [32mBuilding CXX object CMakeFiles/control.dir/src/leap_control.cpp.o[0m
+[3.521s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In constructor ‘[01m[KLeapControl::LeapControl()[m[K’:
+[3.521s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:128:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+[3.521s]   128 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+[3.522s]       |                                        [01;35m[K^~[m[K
+[3.523s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In lambda function:
+[3.523s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:193:35:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.523s]   193 |                         [01;35m[Kinit_flag == 0[m[K;
+[3.524s]       |                         [01;35m[K~~~~~~~~~~^~~~[m[K
+[3.535s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:201:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kdesired_r_gesture[m[K’ was not declared in this scope
+[3.535s]   201 |                             write_data_to_file("R",[01;31m[Kdesired_r_gesture[m[K, gest_r);
+[3.535s]       |                                                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.545s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:202:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kdesired_l_gesture[m[K’ was not declared in this scope
+[3.545s]   202 |                             write_data_to_file("L",[01;31m[Kdesired_l_gesture[m[K, gest_l);
+[3.545s]       |                                                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.548s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:133:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KCONTROL[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.548s]   133 |             switch[01;35m[K([m[Kcurrent_state)
+[3.549s]       |                   [01;35m[K^[m[K
+[3.561s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[Kvoid LeapControl::carth_control()[m[K’:
+[3.561s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:310:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KUP[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.561s]   310 |             switch[01;35m[K([m[Kdir)
+[3.561s]       |                   [01;35m[K^[m[K
+[3.562s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:310:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KDOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.562s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:310:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_R[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.562s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:310:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_L[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.563s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:310:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNEUTRAL[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[11.680s] gmake[2]: *** [CMakeFiles/control.dir/build.make:76: CMakeFiles/control.dir/src/leap_control.cpp.o] Error 1
+[11.680s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/control.dir/all] Error 2
+[11.681s] gmake: *** [Makefile:146: all] Error 2
+[11.686s] Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '2': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8

@@ -1,0 +1,4 @@
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/rpy_pub.cpp:[m[K In constructor ‘[01m[KGestureInterfaceNode::GestureInterfaceNode()[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/rpy_pub.cpp:27:36:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+   27 |         auto rpy_callback = [this] [01;35m[K->[m[K void
+      |                                    [01;35m[K^~[m[K

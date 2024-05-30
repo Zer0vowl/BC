@@ -1,0 +1,327 @@
+[2.260s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.260s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ba9d1e9c340>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ba9d205ebc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ba9d205ebc0>>)
+[2.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.405s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/flejv/bc_ws'
+[2.406s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.406s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.441s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.442s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.442s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.442s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.442s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.442s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.443s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.443s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.443s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.444s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.444s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.444s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.444s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.444s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.444s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.444s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.444s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_pkg) by extension 'ignore'
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_pkg) by extension 'ignore_ament_install'
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_pkg) by extensions ['colcon_pkg']
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_pkg) by extension 'colcon_pkg'
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_pkg) by extensions ['colcon_meta']
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_pkg) by extension 'colcon_meta'
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_pkg) by extensions ['ros']
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_pkg) by extension 'ros'
+[2.452s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bc_pkg' with type 'ros.ament_cmake' and name 'bc_pkg'
+[2.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/leap_gesture_interface) by extensions ['ignore', 'ignore_ament_install']
+[2.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/leap_gesture_interface) by extension 'ignore'
+[2.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/leap_gesture_interface) by extension 'ignore_ament_install'
+[2.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/leap_gesture_interface) by extensions ['colcon_pkg']
+[2.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/leap_gesture_interface) by extension 'colcon_pkg'
+[2.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/leap_gesture_interface) by extensions ['colcon_meta']
+[2.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/leap_gesture_interface) by extension 'colcon_meta'
+[2.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/leap_gesture_interface) by extensions ['ros']
+[2.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/leap_gesture_interface) by extension 'ros'
+[2.455s] DEBUG:colcon.colcon_core.package_identification:Package 'src/leap_gesture_interface' with type 'ros.ament_cmake' and name 'leap_gesture_interface'
+[2.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/parser_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/parser_pkg) by extension 'ignore'
+[2.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/parser_pkg) by extension 'ignore_ament_install'
+[2.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/parser_pkg) by extensions ['colcon_pkg']
+[2.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/parser_pkg) by extension 'colcon_pkg'
+[2.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/parser_pkg) by extensions ['colcon_meta']
+[2.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/parser_pkg) by extension 'colcon_meta'
+[2.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/parser_pkg) by extensions ['ros']
+[2.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/parser_pkg) by extension 'ros'
+[2.458s] DEBUG:colcon.colcon_core.package_identification:Package 'src/parser_pkg' with type 'ros.ament_python' and name 'parser_pkg'
+[2.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[2.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[2.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[2.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[2.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[2.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[2.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[2.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[2.462s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[2.462s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.462s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.462s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.462s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.462s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.538s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/flejv/bc_ws/install
+[3.572s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/humble
+[3.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.751s] Level 5:colcon.colcon_core.verb:set package 'leap_gesture_interface' build argument 'cmake_args' from command line to 'None'
+[3.751s] Level 5:colcon.colcon_core.verb:set package 'leap_gesture_interface' build argument 'cmake_target' from command line to 'None'
+[3.751s] Level 5:colcon.colcon_core.verb:set package 'leap_gesture_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.751s] Level 5:colcon.colcon_core.verb:set package 'leap_gesture_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[3.751s] Level 5:colcon.colcon_core.verb:set package 'leap_gesture_interface' build argument 'cmake_clean_first' from command line to 'False'
+[3.751s] Level 5:colcon.colcon_core.verb:set package 'leap_gesture_interface' build argument 'cmake_force_configure' from command line to 'False'
+[3.751s] Level 5:colcon.colcon_core.verb:set package 'leap_gesture_interface' build argument 'ament_cmake_args' from command line to 'None'
+[3.751s] Level 5:colcon.colcon_core.verb:set package 'leap_gesture_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[3.751s] Level 5:colcon.colcon_core.verb:set package 'leap_gesture_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.752s] DEBUG:colcon.colcon_core.verb:Building package 'leap_gesture_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/flejv/bc_ws/build/leap_gesture_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/flejv/bc_ws/install/leap_gesture_interface', 'merge_install': False, 'path': '/home/flejv/bc_ws/src/leap_gesture_interface', 'symlink_install': False, 'test_result_base': None}
+[3.785s] Level 5:colcon.colcon_core.verb:set package 'parser_pkg' build argument 'cmake_args' from command line to 'None'
+[3.785s] Level 5:colcon.colcon_core.verb:set package 'parser_pkg' build argument 'cmake_target' from command line to 'None'
+[3.785s] Level 5:colcon.colcon_core.verb:set package 'parser_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.785s] Level 5:colcon.colcon_core.verb:set package 'parser_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[3.785s] Level 5:colcon.colcon_core.verb:set package 'parser_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[3.786s] Level 5:colcon.colcon_core.verb:set package 'parser_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[3.786s] Level 5:colcon.colcon_core.verb:set package 'parser_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[3.786s] Level 5:colcon.colcon_core.verb:set package 'parser_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[3.786s] Level 5:colcon.colcon_core.verb:set package 'parser_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.786s] DEBUG:colcon.colcon_core.verb:Building package 'parser_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/flejv/bc_ws/build/parser_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/flejv/bc_ws/install/parser_pkg', 'merge_install': False, 'path': '/home/flejv/bc_ws/src/parser_pkg', 'symlink_install': False, 'test_result_base': None}
+[3.819s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[3.819s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[3.819s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.819s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.820s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.820s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.820s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.820s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.820s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.820s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/flejv/bc_ws/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/flejv/bc_ws/install/px4_msgs', 'merge_install': False, 'path': '/home/flejv/bc_ws/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[3.858s] Level 5:colcon.colcon_core.verb:set package 'bc_pkg' build argument 'cmake_args' from command line to 'None'
+[3.859s] Level 5:colcon.colcon_core.verb:set package 'bc_pkg' build argument 'cmake_target' from command line to 'None'
+[3.859s] Level 5:colcon.colcon_core.verb:set package 'bc_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.859s] Level 5:colcon.colcon_core.verb:set package 'bc_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[3.859s] Level 5:colcon.colcon_core.verb:set package 'bc_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[3.859s] Level 5:colcon.colcon_core.verb:set package 'bc_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[3.859s] Level 5:colcon.colcon_core.verb:set package 'bc_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[3.859s] Level 5:colcon.colcon_core.verb:set package 'bc_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[3.859s] Level 5:colcon.colcon_core.verb:set package 'bc_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.859s] DEBUG:colcon.colcon_core.verb:Building package 'bc_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/flejv/bc_ws/build/bc_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/flejv/bc_ws/install/bc_pkg', 'merge_install': False, 'path': '/home/flejv/bc_ws/src/bc_pkg', 'symlink_install': False, 'test_result_base': None}
+[3.893s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.932s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.933s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/flejv/bc_ws/src/px4_msgs' with build type 'ament_cmake'
+[3.933s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/flejv/bc_ws/src/px4_msgs'
+[3.980s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.980s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.980s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.090s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/flejv/bc_ws/src/leap_gesture_interface' with build type 'ament_cmake'
+[4.091s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/flejv/bc_ws/src/leap_gesture_interface'
+[4.143s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.144s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.305s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/flejv/bc_ws/src/parser_pkg' with build type 'ament_python'
+[4.306s] Level 1:colcon.colcon_core.shell:create_environment_hook('parser_pkg', 'ament_prefix_path')
+[4.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/flejv/bc_ws/install/parser_pkg/share/parser_pkg/hook/ament_prefix_path.ps1'
+[4.366s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/flejv/bc_ws/install/parser_pkg/share/parser_pkg/hook/ament_prefix_path.dsv'
+[4.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/flejv/bc_ws/install/parser_pkg/share/parser_pkg/hook/ament_prefix_path.sh'
+[4.421s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.421s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/flejv/bc_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/px4_msgs -- -j8 -l8
+[4.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/flejv/bc_ws/build/leap_gesture_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/leap_gesture_interface -- -j8 -l8
+[5.164s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/flejv/bc_ws/src/parser_pkg'
+[5.209s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.209s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/flejv/bc_ws/build/leap_gesture_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/leap_gesture_interface -- -j8 -l8
+[5.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/flejv/bc_ws/build/leap_gesture_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --install /home/flejv/bc_ws/build/leap_gesture_interface
+[5.523s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leap_gesture_interface)
+[5.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/flejv/bc_ws/build/leap_gesture_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --install /home/flejv/bc_ws/build/leap_gesture_interface
+[5.587s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/leap_gesture_interface' for CMake module files
+[5.590s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/leap_gesture_interface' for CMake config files
+[5.591s] Level 1:colcon.colcon_core.shell:create_environment_hook('leap_gesture_interface', 'cmake_prefix_path')
+[5.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/hook/cmake_prefix_path.ps1'
+[5.664s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/hook/cmake_prefix_path.dsv'
+[5.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/hook/cmake_prefix_path.sh'
+[5.674s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/leap_gesture_interface/lib'
+[5.675s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/leap_gesture_interface/bin'
+[5.676s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/leap_gesture_interface/lib/pkgconfig/leap_gesture_interface.pc'
+[5.678s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/leap_gesture_interface/lib/python3.10/site-packages'
+[5.679s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/leap_gesture_interface/bin'
+[5.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/package.ps1'
+[5.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/package.dsv'
+[5.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/package.sh'
+[5.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/package.bash'
+[5.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/package.zsh'
+[5.759s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/flejv/bc_ws/install/leap_gesture_interface/share/colcon-core/packages/leap_gesture_interface)
+[6.069s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leap_gesture_interface)
+[6.135s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/leap_gesture_interface' for CMake module files
+[6.137s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/leap_gesture_interface' for CMake config files
+[6.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('leap_gesture_interface', 'cmake_prefix_path')
+[6.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/hook/cmake_prefix_path.ps1'
+[6.239s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/hook/cmake_prefix_path.dsv'
+[6.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/hook/cmake_prefix_path.sh'
+[6.244s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/leap_gesture_interface/lib'
+[6.244s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/leap_gesture_interface/bin'
+[6.244s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/leap_gesture_interface/lib/pkgconfig/leap_gesture_interface.pc'
+[6.247s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/leap_gesture_interface/lib/python3.10/site-packages'
+[6.252s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/leap_gesture_interface/bin'
+[6.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/package.ps1'
+[6.324s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/package.dsv'
+[6.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/package.sh'
+[6.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/package.bash'
+[6.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/package.zsh'
+[6.334s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/flejv/bc_ws/install/leap_gesture_interface/share/colcon-core/packages/leap_gesture_interface)
+[6.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/flejv/bc_ws/src/parser_pkg': PYTHONPATH=/home/flejv/bc_ws/build/parser_pkg/prefix_override:/home/flejv/bc_ws/install/parser_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/parser_pkg build --build-base /home/flejv/bc_ws/build/parser_pkg/build install --record /home/flejv/bc_ws/build/parser_pkg/install.log --single-version-externally-managed
+[7.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/flejv/bc_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/px4_msgs -- -j8 -l8
+[8.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/flejv/bc_ws/src/parser_pkg' returned '0': PYTHONPATH=/home/flejv/bc_ws/build/parser_pkg/prefix_override:/home/flejv/bc_ws/install/parser_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/parser_pkg build --build-base /home/flejv/bc_ws/build/parser_pkg/build install --record /home/flejv/bc_ws/build/parser_pkg/install.log --single-version-externally-managed
+[8.198s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/parser_pkg' for CMake module files
+[8.200s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/parser_pkg' for CMake config files
+[8.201s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/parser_pkg/lib'
+[8.202s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/parser_pkg/bin'
+[8.203s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/parser_pkg/lib/pkgconfig/parser_pkg.pc'
+[8.203s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/parser_pkg/lib/python3.10/site-packages'
+[8.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('parser_pkg', 'pythonpath')
+[8.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/flejv/bc_ws/install/parser_pkg/share/parser_pkg/hook/pythonpath.ps1'
+[8.242s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/flejv/bc_ws/install/parser_pkg/share/parser_pkg/hook/pythonpath.dsv'
+[8.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/flejv/bc_ws/install/parser_pkg/share/parser_pkg/hook/pythonpath.sh'
+[8.244s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/parser_pkg/bin'
+[8.244s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(parser_pkg)
+[8.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/parser_pkg/share/parser_pkg/package.ps1'
+[8.286s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/flejv/bc_ws/install/parser_pkg/share/parser_pkg/package.dsv'
+[8.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/parser_pkg/share/parser_pkg/package.sh'
+[8.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/parser_pkg/share/parser_pkg/package.bash'
+[8.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/parser_pkg/share/parser_pkg/package.zsh'
+[8.313s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/flejv/bc_ws/install/parser_pkg/share/colcon-core/packages/parser_pkg)
+[19.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/flejv/bc_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --install /home/flejv/bc_ws/build/px4_msgs
+[20.143s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[20.244s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/px4_msgs' for CMake module files
+[20.247s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/px4_msgs' for CMake config files
+[20.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[20.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[20.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[20.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[20.361s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/px4_msgs/lib'
+[20.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[20.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[20.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[20.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[20.463s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/px4_msgs/bin'
+[20.463s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[20.464s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/px4_msgs/lib/python3.10/site-packages'
+[20.465s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/px4_msgs/bin'
+[20.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[20.554s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[20.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[20.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[20.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[20.561s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/flejv/bc_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[20.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/flejv/bc_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --install /home/flejv/bc_ws/build/px4_msgs
+[31.483s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[31.518s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/px4_msgs' for CMake module files
+[31.519s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/px4_msgs' for CMake config files
+[31.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[31.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[31.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[31.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[31.576s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/px4_msgs/lib'
+[31.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[31.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[31.615s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[31.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[31.617s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/px4_msgs/bin'
+[31.617s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[31.618s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/px4_msgs/lib/python3.10/site-packages'
+[31.618s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/px4_msgs/bin'
+[31.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[31.655s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[31.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[31.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[31.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[31.661s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/flejv/bc_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[31.663s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/flejv/bc_ws/src/bc_pkg' with build type 'ament_cmake'
+[31.663s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/flejv/bc_ws/src/bc_pkg'
+[31.698s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.698s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/flejv/bc_ws/build/bc_pkg': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[93.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '0': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[94.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/flejv/bc_ws/build/bc_pkg': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --install /home/flejv/bc_ws/build/bc_pkg
+[94.176s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bc_pkg)
+[94.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '0': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --install /home/flejv/bc_ws/build/bc_pkg
+[94.206s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/bc_pkg' for CMake module files
+[94.207s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/bc_pkg' for CMake config files
+[94.208s] Level 1:colcon.colcon_core.shell:create_environment_hook('bc_pkg', 'cmake_prefix_path')
+[94.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/hook/cmake_prefix_path.ps1'
+[94.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/hook/cmake_prefix_path.dsv'
+[94.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/hook/cmake_prefix_path.sh'
+[94.247s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/bc_pkg/lib'
+[94.247s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/bc_pkg/bin'
+[94.247s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/bc_pkg/lib/pkgconfig/bc_pkg.pc'
+[94.247s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/bc_pkg/lib/python3.10/site-packages'
+[94.248s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/bc_pkg/bin'
+[94.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.ps1'
+[94.279s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.dsv'
+[94.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.sh'
+[94.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.bash'
+[94.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.zsh'
+[94.285s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/flejv/bc_ws/install/bc_pkg/share/colcon-core/packages/bc_pkg)
+[94.445s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bc_pkg)
+[94.488s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/bc_pkg' for CMake module files
+[94.489s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/bc_pkg' for CMake config files
+[94.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('bc_pkg', 'cmake_prefix_path')
+[94.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/hook/cmake_prefix_path.ps1'
+[94.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/hook/cmake_prefix_path.dsv'
+[94.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/hook/cmake_prefix_path.sh'
+[94.536s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/bc_pkg/lib'
+[94.536s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/bc_pkg/bin'
+[94.537s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/bc_pkg/lib/pkgconfig/bc_pkg.pc'
+[94.537s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/bc_pkg/lib/python3.10/site-packages'
+[94.538s] Level 1:colcon.colcon_core.environment:checking '/home/flejv/bc_ws/install/bc_pkg/bin'
+[94.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.ps1'
+[94.586s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.dsv'
+[94.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.sh'
+[94.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.bash'
+[94.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.zsh'
+[94.592s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/flejv/bc_ws/install/bc_pkg/share/colcon-core/packages/bc_pkg)
+[94.594s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[94.594s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[94.594s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[94.595s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[94.646s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[94.647s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[94.647s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[94.681s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[94.720s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/flejv/bc_ws/install/local_setup.ps1'
+[94.724s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/flejv/bc_ws/install/_local_setup_util_ps1.py'
+[94.727s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/flejv/bc_ws/install/setup.ps1'
+[94.765s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/flejv/bc_ws/install/local_setup.sh'
+[94.766s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/flejv/bc_ws/install/_local_setup_util_sh.py'
+[94.767s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/flejv/bc_ws/install/setup.sh'
+[94.804s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/flejv/bc_ws/install/local_setup.bash'
+[94.806s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/flejv/bc_ws/install/setup.bash'
+[94.844s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/flejv/bc_ws/install/local_setup.zsh'
+[94.846s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/flejv/bc_ws/install/setup.zsh'

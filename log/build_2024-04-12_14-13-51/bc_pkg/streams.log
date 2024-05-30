@@ -1,0 +1,36 @@
+[0.087s] Invoking command in '/home/flejv/bc_ws/build/bc_pkg': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[0.160s] [  7%] Built target libExampleConnection
+[0.161s] [ 23%] Built target gest
+[0.165s] [ 30%] [32mBuilding CXX object CMakeFiles/control.dir/src/leap_control.cpp.o[0m
+[0.165s] [ 46%] Built target connect
+[0.169s] [ 61%] Built target hand
+[0.196s] [ 69%] [32mBuilding CXX object CMakeFiles/carth.dir/src/carth_pub.cpp.o[0m
+[0.198s] [ 76%] [32mBuilding CXX object CMakeFiles/rpy.dir/src/rpy_pub.cpp.o[0m
+[4.093s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/rpy_pub.cpp:[m[K In constructor ‘[01m[KGestureInterfaceNode::GestureInterfaceNode()[m[K’:
+[4.093s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/rpy_pub.cpp:26:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kpalm_callback[m[K’ is not a member of ‘[01m[KGestureInterfaceNode[m[K’
+[4.093s]    26 |             std::bind(&GestureInterfaceNode::[01;31m[Kpalm_callback[m[K, this, std::placeholders::_1));
+[4.094s]       |                                              [01;31m[K^~~~~~~~~~~~~[m[K
+[4.109s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/rpy_pub.cpp:31:36:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+[4.109s]    31 |         auto rpy_callback = [this] [01;35m[K->[m[K void
+[4.110s]       |                                    [01;35m[K^~[m[K
+[4.142s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In constructor ‘[01m[KLeapControl::LeapControl()[m[K’:
+[4.142s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:132:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+[4.142s]   132 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+[4.142s]       |                                        [01;35m[K^~[m[K
+[4.179s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[Kvoid LeapControl::carth_control()[m[K’:
+[4.179s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:513:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KUP[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[4.180s]   513 |             switch[01;35m[K([m[Kdir)
+[4.180s]       |                   [01;35m[K^[m[K
+[4.180s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:513:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KDOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[4.180s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:513:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_R[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[4.181s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:513:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_L[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[4.181s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:513:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNEUTRAL[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[7.403s] [ 84%] [32m[1mLinking CXX executable carth[0m
+[7.956s] [ 84%] Built target carth
+[8.079s] gmake[2]: *** [CMakeFiles/rpy.dir/build.make:76: CMakeFiles/rpy.dir/src/rpy_pub.cpp.o] Error 1
+[8.079s] gmake[1]: *** [CMakeFiles/Makefile2:279: CMakeFiles/rpy.dir/all] Error 2
+[8.080s] gmake[1]: *** Waiting for unfinished jobs....
+[24.922s] [ 92%] [32m[1mLinking CXX executable control[0m
+[26.392s] [ 92%] Built target control
+[26.394s] gmake: *** [Makefile:146: all] Error 2
+[26.397s] Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '2': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8

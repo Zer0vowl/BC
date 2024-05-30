@@ -1,0 +1,4 @@
+source;share/bc_pkg/local_setup.bash
+source;share/bc_pkg/local_setup.dsv
+source;share/bc_pkg/local_setup.sh
+source;share/bc_pkg/local_setup.zsh

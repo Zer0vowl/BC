@@ -1,0 +1,70 @@
+[0.177s] Invoking command in '/home/flejv/bc_ws/build/bc_pkg': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[0.298s] [35m[1mConsolidate compiler generated dependencies of target control[0m
+[0.319s] [  7%] Built target libExampleConnection
+[0.350s] [ 23%] Built target control
+[0.352s] [ 38%] Built target hand
+[0.354s] [ 46%] [32mBuilding CXX object CMakeFiles/connect.dir/src/communication_hub.cpp.o[0m
+[0.377s] [ 61%] Built target gest
+[0.394s] [ 76%] Built target carth
+[0.416s] [ 92%] Built target rpy
+[7.383s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:[m[K In constructor ‘[01m[KOffboardControl::OffboardControl()[m[K’:
+[7.384s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:33:9:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krmw_qos_profile_s::deadline[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[7.384s]    33 |         [01;35m[K}[m[K;
+[7.384s]       |         [01;35m[K^[m[K
+[7.384s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:33:9:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krmw_qos_profile_s::lifespan[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[7.385s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:33:9:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krmw_qos_profile_s::liveliness[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[7.385s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:33:9:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krmw_qos_profile_s::liveliness_lease_duration[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[7.385s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:33:9:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krmw_qos_profile_s::avoid_ros_namespace_conventions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[22.687s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:[m[K In lambda function:
+[22.687s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:78:21:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+[22.688s]    78 |                     [01;35m[Kif[m[K(flight_check && arm_msg == true)
+[22.688s]       |                     [01;35m[K^~[m[K
+[22.688s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:83:17:[m[K [01;36m[Knote: [m[Khere
+[22.688s]    83 |                 [01;36m[Kcase[m[K ARMING:
+[22.688s]       |                 [01;36m[K^~~~[m[K
+[22.688s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:92:30:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+[22.689s]    92 |                     [01;35m[Kthis->arm()[m[K;
+[22.689s]       |                     [01;35m[K~~~~~~~~~^~[m[K
+[22.689s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:94:17:[m[K [01;36m[Knote: [m[Khere
+[22.689s]    94 |                 [01;36m[Kcase[m[K TAKEOFF:
+[22.689s]       |                 [01;36m[K^~~~[m[K
+[22.689s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:103:35:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+[22.690s]   103 |                     [01;35m[Kthis->take_off()[m[K;
+[22.690s]       |                     [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[22.690s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:107:17:[m[K [01;36m[Knote: [m[Khere
+[22.690s]   107 |                 [01;36m[Kcase[m[K LOITER:
+[22.690s]       |                 [01;36m[K^~~~[m[K
+[22.690s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:116:30:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+[22.690s]   116 |                     [01;35m[Kthis->arm()[m[K;
+[22.691s]       |                     [01;35m[K~~~~~~~~~^~[m[K
+[22.691s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:118:17:[m[K [01;36m[Knote: [m[Khere
+[22.691s]   118 |                 [01;36m[Kcase[m[K OFFBOARD:
+[22.691s]       |                 [01;36m[K^~~~[m[K
+[47.527s] [100%] [32m[1mLinking CXX executable connect[0m
+[50.417s] [100%] Built target connect
+[50.447s] Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '0': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[50.571s] Invoking command in '/home/flejv/bc_ws/build/bc_pkg': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --install /home/flejv/bc_ws/build/bc_pkg
+[50.591s] -- Install configuration: ""
+[50.592s] -- Installing: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/connect
+[50.624s] -- Set runtime path of "/home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/connect" to ""
+[50.625s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/control
+[50.626s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/hand
+[50.626s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/gest
+[50.626s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/rpy
+[50.627s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/carth
+[50.628s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/ament_index/resource_index/package_run_dependencies/bc_pkg
+[50.628s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/ament_index/resource_index/parent_prefix_path/bc_pkg
+[50.628s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/ament_prefix_path.sh
+[50.628s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/ament_prefix_path.dsv
+[50.628s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/path.sh
+[50.629s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/path.dsv
+[50.629s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.bash
+[50.629s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.sh
+[50.629s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.zsh
+[50.629s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.dsv
+[50.629s] -- Installing: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.dsv
+[50.630s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/ament_index/resource_index/packages/bc_pkg
+[50.630s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/cmake/bc_pkgConfig.cmake
+[50.630s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/cmake/bc_pkgConfig-version.cmake
+[50.630s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.xml
+[50.637s] Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '0': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --install /home/flejv/bc_ws/build/bc_pkg

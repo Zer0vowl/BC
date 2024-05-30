@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target gest[0m
+[35m[1mConsolidate compiler generated dependencies of target connect[0m
+[35m[1mConsolidate compiler generated dependencies of target control[0m
+[35m[1mConsolidate compiler generated dependencies of target hand[0m
+[ 25%] Built target gest
+[ 37%] [32mBuilding CXX object CMakeFiles/control.dir/src/leap_control.cpp.o[0m
+[ 62%] Built target connect
+[ 87%] Built target hand
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In constructor ‘[01m[KLeapControl::LeapControl()[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:96:25:[m[K [01;31m[Kerror: [m[K‘[01m[KCALIBRATING_R[m[K’ was not declared in this scope; did you mean ‘[01m[KCALIBRATING[m[K’?
+   96 |         current_state = [01;31m[KCALIBRATING_R[m[K;
+      |                         [01;31m[K^~~~~~~~~~~~~[m[K
+      |                         [32m[KCALIBRATING[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:128:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+  128 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+      |                                        [01;35m[K^~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In lambda function:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:130:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KEVALUATING_DATA[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+  130 |             switch[01;35m[K([m[Kcurrent_state)
+      |                   [01;35m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:130:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KCONTROL[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[Kvoid LeapControl::carth_control()[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:549:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KUP[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+  549 |             switch[01;35m[K([m[Kdir)
+      |                   [01;35m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:549:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KDOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:549:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_R[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:549:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_L[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:549:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNEUTRAL[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[KDirection LeapControl::get_rpy_direction()[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:709:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  709 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/control.dir/build.make:76: CMakeFiles/control.dir/src/leap_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,93 @@
+[0.085s] Invoking command in '/home/flejv/bc_ws/build/leap_gesture_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/leap_gesture_interface -- -j8 -l8
+[0.296s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.074s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.099s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.169s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.218s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.285s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.517s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.529s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.974s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.538s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.905s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.233s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.473s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.474s] -- Configured cppcheck include dirs: 
+[3.474s] -- Configured cppcheck exclude dirs and/or files: 
+[3.478s] -- Added test 'lint_cmake' to check CMake code style
+[3.491s] -- Added test 'uncrustify' to check C / C++ code style
+[3.491s] -- Configured uncrustify additional arguments: 
+[3.493s] -- Added test 'xmllint' to check XML markup files
+[3.496s] -- Configuring done
+[3.507s] [33mCMake Warning (dev) at CMakeLists.txt:87 (add_executable):
+[3.507s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[3.508s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[3.508s]   command to set the policy and suppress this warning.
+[3.508s] 
+[3.508s]   File:
+[3.508s] 
+[3.508s]     /home/flejv/bc_ws/src/leap_gesture_interface/src/carth_pub.cpp
+[3.509s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.509s] [0m
+[3.509s] [33mCMake Warning (dev) at CMakeLists.txt:91 (add_executable):
+[3.509s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[3.509s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[3.510s]   command to set the policy and suppress this warning.
+[3.510s] 
+[3.510s]   File:
+[3.510s] 
+[3.510s]     /home/flejv/bc_ws/src/leap_gesture_interface/src/rpy_pub.cpp
+[3.510s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.511s] [0m
+[3.604s] -- Generating done
+[3.609s] -- Build files have been written to: /home/flejv/bc_ws/build/leap_gesture_interface
+[3.662s] [35m[1mConsolidate compiler generated dependencies of target libExampleConnection[0m
+[3.691s] [ 11%] [32mBuilding C object CMakeFiles/libExampleConnection.dir/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c.o[0m
+[3.836s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:[m[K In function ‘[01m[KhandleConnectionEvent[m[K’:
+[3.836s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:109:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kconnection_event[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.836s]   109 | tic void handleConnectionEvent([01;35m[Kconst LEAP_CONNECTION_EVENT *connection_event[m[K){
+[3.836s]       |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[3.836s] 
+[3.837s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:[m[K In function ‘[01m[KhandleConnectionLostEvent[m[K’:
+[3.837s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:117:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kconnection_lost_event[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.837s]   117 | handleConnectionLostEvent([01;35m[Kconst LEAP_CONNECTION_LOST_EVENT *connection_lost_event[m[K){
+[3.837s]       |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.837s] 
+[3.845s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:[m[K In function ‘[01m[KhandleDeviceEvent[m[K’:
+[3.846s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:138:3:[m[K [01;35m[Kwarning: [m[Kmissing initializer for field ‘[01m[Kstatus[m[K’ of ‘[01m[KLEAP_DEVICE_INFO[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.846s]   138 |   [01;35m[KLEAP_DEVICE_INFO[m[K deviceProperties = { sizeof(deviceProperties) };
+[3.846s]       |   [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[3.846s] In file included from [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.h:13[m[K,
+[3.846s]                  from [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:10[m[K:
+[3.846s] [01m[K/usr/include/LeapC.h:1030:12:[m[K [01;36m[Knote: [m[K‘[01m[Kstatus[m[K’ declared here
+[3.847s]  1030 |   uint32_t [01;36m[Kstatus[m[K;
+[3.847s]       |            [01;36m[K^~~~~~[m[K
+[3.847s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:[m[K In function ‘[01m[KhandleDeviceLostEvent[m[K’:
+[3.847s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:166:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice_event[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.847s]   166 | static void handleDeviceLostEvent([01;35m[Kconst LEAP_DEVICE_EVENT *device_event[m[K){
+[3.848s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[3.859s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:[m[K In function ‘[01m[KserviceMessageLoop[m[K’:
+[3.859s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:266:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kunused[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.859s]   266 | static void* serviceMessageLoop([01;35m[Kvoid * unused[m[K){
+[3.859s]       |                                 [01;35m[K~~~~~~~^~~~~~[m[K
+[4.097s] [ 11%] Built target libExampleConnection
+[4.143s] [35m[1mConsolidate compiler generated dependencies of target carth[0m
+[4.143s] [35m[1mConsolidate compiler generated dependencies of target gesture_interface_node[0m
+[4.161s] [35m[1mConsolidate compiler generated dependencies of target rpy[0m
+[4.175s] [35m[1mConsolidate compiler generated dependencies of target leap_example_node[0m
+[4.195s] [ 22%] [32mBuilding CXX object CMakeFiles/carth.dir/src/carth_pub.cpp.o[0m
+[4.201s] [ 33%] [32mBuilding CXX object CMakeFiles/gesture_interface_node.dir/src/gesture_interface_node.cpp.o[0m
+[4.221s] [ 44%] [32mBuilding CXX object CMakeFiles/rpy.dir/src/rpy_pub.cpp.o[0m
+[4.228s] [ 55%] [32mBuilding CXX object CMakeFiles/leap_example_node.dir/src/leap_interface_example.cpp.o[0m
+[10.596s] [01m[K/home/flejv/bc_ws/src/leap_gesture_interface/src/gesture_interface_node.cpp:[m[K In constructor ‘[01m[KGestureInterfaceNode::GestureInterfaceNode()[m[K’:
+[10.597s] [01m[K/home/flejv/bc_ws/src/leap_gesture_interface/src/gesture_interface_node.cpp:63:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpublish_rate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[10.597s]    63 |         double [01;35m[Kpublish_rate[m[K = this->declare_parameter<double>("publish_rate", 10.0);
+[10.597s]       |                [01;35m[K^~~~~~~~~~~~[m[K
+[15.531s] [ 66%] [32m[1mLinking CXX executable carth[0m
+[15.536s] [ 77%] [32m[1mLinking CXX executable leap_example_node[0m
+[16.304s] [ 88%] [32m[1mLinking CXX executable gesture_interface_node[0m
+[17.282s] [ 88%] Built target gesture_interface_node
+[17.285s] [ 88%] Built target leap_example_node
+[17.288s] [ 88%] Built target carth
+[27.729s] [100%] [32m[1mLinking CXX executable rpy[0m
+[28.631s] [100%] Built target rpy

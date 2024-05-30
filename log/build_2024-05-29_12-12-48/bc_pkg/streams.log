@@ -1,0 +1,66 @@
+[0.087s] Invoking command in '/home/flejv/bc_ws/build/bc_pkg': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[0.176s] [35m[1mConsolidate compiler generated dependencies of target control[0m
+[0.178s] [35m[1mConsolidate compiler generated dependencies of target gest[0m
+[0.181s] [35m[1mConsolidate compiler generated dependencies of target hand[0m
+[0.181s] [35m[1mConsolidate compiler generated dependencies of target connect[0m
+[0.187s] [  7%] Built target libExampleConnection
+[0.212s] [35m[1mConsolidate compiler generated dependencies of target rpy[0m
+[0.212s] [35m[1mConsolidate compiler generated dependencies of target carth[0m
+[0.212s] [ 15%] [32mBuilding CXX object CMakeFiles/control.dir/src/leap_control.cpp.o[0m
+[0.213s] [ 30%] Built target connect
+[0.218s] [ 46%] Built target hand
+[0.238s] [ 61%] Built target rpy
+[0.241s] [ 76%] Built target carth
+[0.336s] [ 92%] Built target gest
+[4.017s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In constructor ‘[01m[KLeapControl::LeapControl()[m[K’:
+[4.017s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:108:21:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.017s]   108 |         [01;35m[Kstart_timer == 1[m[K;
+[4.018s]       |         [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[4.047s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:139:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+[4.047s]   139 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+[4.047s]       |                                        [01;35m[K^~[m[K
+[4.058s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In lambda function:
+[4.059s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:393:34:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Klast_second_mark[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[4.059s]   393 |                             auto [01;35m[Klast_second_mark[m[K = start;
+[4.059s]       |                                  [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[4.082s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[Kvoid LeapControl::carth_control()[m[K’:
+[4.082s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:572:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KUP[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[4.083s]   572 |             switch[01;35m[K([m[Kdir)
+[4.083s]       |                   [01;35m[K^[m[K
+[4.083s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:572:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KDOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[4.083s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:572:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_R[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[4.083s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:572:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_L[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[4.083s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:572:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNEUTRAL[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[28.022s] [100%] [32m[1mLinking CXX executable control[0m
+[30.141s] [100%] Built target control
+[30.158s] Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '0': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[30.223s] Invoking command in '/home/flejv/bc_ws/build/bc_pkg': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --install /home/flejv/bc_ws/build/bc_pkg
+[30.255s] -- Install configuration: ""
+[30.290s] -- Installing: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/connect
+[30.309s] -- Set runtime path of "/home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/connect" to ""
+[30.327s] -- Installing: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/control
+[30.363s] -- Set runtime path of "/home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/control" to ""
+[30.376s] -- Installing: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/hand
+[30.384s] -- Set runtime path of "/home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/hand" to ""
+[30.398s] -- Installing: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/gest
+[30.413s] -- Set runtime path of "/home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/gest" to ""
+[30.437s] -- Installing: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/rpy
+[30.448s] -- Set runtime path of "/home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/rpy" to ""
+[30.465s] -- Installing: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/carth
+[30.477s] -- Set runtime path of "/home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/carth" to ""
+[30.477s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/ament_index/resource_index/package_run_dependencies/bc_pkg
+[30.478s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/ament_index/resource_index/parent_prefix_path/bc_pkg
+[30.478s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/ament_prefix_path.sh
+[30.478s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/ament_prefix_path.dsv
+[30.478s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/path.sh
+[30.478s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/path.dsv
+[30.478s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.bash
+[30.478s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.sh
+[30.479s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.zsh
+[30.479s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.dsv
+[30.479s] -- Installing: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.dsv
+[30.493s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/ament_index/resource_index/packages/bc_pkg
+[30.494s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/cmake/bc_pkgConfig.cmake
+[30.494s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/cmake/bc_pkgConfig-version.cmake
+[30.495s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.xml
+[30.516s] Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '0': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --install /home/flejv/bc_ws/build/bc_pkg

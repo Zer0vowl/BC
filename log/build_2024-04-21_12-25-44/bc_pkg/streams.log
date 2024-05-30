@@ -1,0 +1,112 @@
+[0.325s] Invoking command in '/home/flejv/bc_ws/build/bc_pkg': AMENT_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/flejv/bc_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/flejv/bc_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[0.791s] [  7%] [32mBuilding C object CMakeFiles/libExampleConnection.dir/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c.o[0m
+[1.207s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:[m[K In function ‘[01m[KhandleConnectionEvent[m[K’:
+[1.207s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:109:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kconnection_event[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.208s]   109 | tic void handleConnectionEvent([01;35m[Kconst LEAP_CONNECTION_EVENT *connection_event[m[K){
+[1.208s]       |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.208s] 
+[1.208s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:[m[K In function ‘[01m[KhandleConnectionLostEvent[m[K’:
+[1.209s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:117:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kconnection_lost_event[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.209s]   117 | handleConnectionLostEvent([01;35m[Kconst LEAP_CONNECTION_LOST_EVENT *connection_lost_event[m[K){
+[1.209s]       |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.209s] 
+[1.227s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:[m[K In function ‘[01m[KhandleDeviceEvent[m[K’:
+[1.228s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:138:3:[m[K [01;35m[Kwarning: [m[Kmissing initializer for field ‘[01m[Kstatus[m[K’ of ‘[01m[KLEAP_DEVICE_INFO[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.228s]   138 |   [01;35m[KLEAP_DEVICE_INFO[m[K deviceProperties = { sizeof(deviceProperties) };
+[1.228s]       |   [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[1.232s] In file included from [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.h:13[m[K,
+[1.232s]                  from [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:10[m[K:
+[1.232s] [01m[K/usr/include/LeapC.h:1030:12:[m[K [01;36m[Knote: [m[K‘[01m[Kstatus[m[K’ declared here
+[1.233s]  1030 |   uint32_t [01;36m[Kstatus[m[K;
+[1.233s]       |            [01;36m[K^~~~~~[m[K
+[1.233s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:[m[K In function ‘[01m[KhandleDeviceLostEvent[m[K’:
+[1.234s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:166:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice_event[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.234s]   166 | static void handleDeviceLostEvent([01;35m[Kconst LEAP_DEVICE_EVENT *device_event[m[K){
+[1.234s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[1.263s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:[m[K In function ‘[01m[KserviceMessageLoop[m[K’:
+[1.264s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:266:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kunused[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.264s]   266 | static void* serviceMessageLoop([01;35m[Kvoid * unused[m[K){
+[1.264s]       |                                 [01;35m[K~~~~~~~^~~~~~[m[K
+[1.807s] [  7%] Built target libExampleConnection
+[2.038s] [ 15%] [32mBuilding CXX object CMakeFiles/gest.dir/src/gesture.cpp.o[0m
+[13.399s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In constructor ‘[01m[KGesture::Gesture()[m[K’:
+[13.399s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:80:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+[13.399s]    80 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+[13.400s]       |                                        [01;35m[K^~[m[K
+[13.495s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In member function ‘[01m[Kvoid Gesture::create_base_hand(const std::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >&, std::vector<float>&, hand_type&)[m[K’:
+[13.495s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:514:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.496s]   514 |         for(int i = 0; [01;35m[Ki < msg.size()[m[K; i++)
+[13.496s]       |                        [01;35m[K~~^~~~~~~~~~~~[m[K
+[13.537s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In member function ‘[01m[Kbool Gesture::prepare_calibration_array(std::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >&, hand_type&)[m[K’:
+[13.537s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:789:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.537s]   789 |         for(int i = 0; [01;35m[Ki < pose_data.size()-1[m[K; i++)
+[13.538s]       |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[23.160s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In lambda function:
+[23.160s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:95:37:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+[23.161s]    95 |                     [01;35m[Kcalibration_flg = COLLECTING_DATA_R[m[K;
+[23.161s]       |                     [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[23.161s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:97:17:[m[K [01;36m[Knote: [m[Khere
+[23.162s]    97 |                 [01;36m[Kcase[m[K COLLECTING_DATA_R:
+[23.162s]       |                 [01;36m[K^~~~[m[K
+[39.930s] [ 23%] [32m[1mLinking CXX executable gest[0m
+[45.457s] [ 23%] Built target gest
+[45.684s] [ 30%] [32mBuilding CXX object CMakeFiles/carth.dir/src/carth_pub.cpp.o[0m
+[60.718s] [ 38%] [32m[1mLinking CXX executable carth[0m
+[61.921s] [ 38%] Built target carth
+[62.113s] [ 46%] [32mBuilding CXX object CMakeFiles/rpy.dir/src/rpy_pub.cpp.o[0m
+[69.832s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/rpy_pub.cpp:[m[K In constructor ‘[01m[KGestureInterfaceNode::GestureInterfaceNode()[m[K’:
+[69.832s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/rpy_pub.cpp:27:36:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+[69.833s]    27 |         auto rpy_callback = [this] [01;35m[K->[m[K void
+[69.833s]       |                                    [01;35m[K^~[m[K
+[91.030s] [ 53%] [32m[1mLinking CXX executable rpy[0m
+[92.892s] [ 53%] Built target rpy
+[93.128s] [ 61%] [32mBuilding CXX object CMakeFiles/hand.dir/src/virtual_hand.cpp.o[0m
+[123.704s] [ 69%] [32m[1mLinking CXX executable hand[0m
+[125.545s] [ 69%] Built target hand
+[125.740s] [35m[1mConsolidate compiler generated dependencies of target control[0m
+[125.819s] [ 76%] [32mBuilding CXX object CMakeFiles/control.dir/src/leap_control.cpp.o[0m
+[134.584s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In constructor ‘[01m[KLeapControl::LeapControl()[m[K’:
+[134.585s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:130:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+[134.585s]   130 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+[134.585s]       |                                        [01;35m[K^~[m[K
+[134.670s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[Kvoid LeapControl::carth_control()[m[K’:
+[134.671s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:534:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KUP[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[134.672s]   534 |             switch[01;35m[K([m[Kdir)
+[134.672s]       |                   [01;35m[K^[m[K
+[134.672s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:534:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KDOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[134.673s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:534:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_R[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[134.673s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:534:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_L[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[134.673s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:534:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNEUTRAL[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[197.945s] [ 84%] [32m[1mLinking CXX executable control[0m
+[202.348s] [ 84%] Built target control
+[202.618s] [100%] Built target connect
+[202.662s] Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '0': AMENT_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/flejv/bc_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/flejv/bc_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[202.842s] Invoking command in '/home/flejv/bc_ws/build/bc_pkg': AMENT_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/flejv/bc_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/flejv/bc_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/flejv/bc_ws/build/bc_pkg
+[202.898s] -- Install configuration: ""
+[202.991s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/connect
+[203.028s] -- Installing: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/control
+[203.103s] -- Set runtime path of "/home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/control" to ""
+[203.170s] -- Installing: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/hand
+[203.192s] -- Set runtime path of "/home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/hand" to ""
+[203.272s] -- Installing: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/gest
+[203.297s] -- Set runtime path of "/home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/gest" to ""
+[203.369s] -- Installing: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/rpy
+[203.390s] -- Set runtime path of "/home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/rpy" to ""
+[203.481s] -- Installing: /home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/carth
+[203.488s] -- Set runtime path of "/home/flejv/bc_ws/install/bc_pkg/lib/bc_pkg/carth" to ""
+[203.488s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/ament_index/resource_index/package_run_dependencies/bc_pkg
+[203.489s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/ament_index/resource_index/parent_prefix_path/bc_pkg
+[203.489s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/ament_prefix_path.sh
+[203.489s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/ament_prefix_path.dsv
+[203.489s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/path.sh
+[203.490s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/environment/path.dsv
+[203.490s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.bash
+[203.490s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.sh
+[203.490s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.zsh
+[203.491s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/local_setup.dsv
+[203.491s] -- Installing: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.dsv
+[203.518s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/ament_index/resource_index/packages/bc_pkg
+[203.518s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/cmake/bc_pkgConfig.cmake
+[203.519s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/cmake/bc_pkgConfig-version.cmake
+[203.519s] -- Up-to-date: /home/flejv/bc_ws/install/bc_pkg/share/bc_pkg/package.xml
+[203.524s] Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '0': AMENT_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/flejv/bc_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/flejv/bc_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/flejv/bc_ws/build/bc_pkg

@@ -1,0 +1,120 @@
+[0.071s] Invoking command in '/home/flejv/bc_ws/build/leap_gesture_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/leap_gesture_interface -- -j8 -l8
+[0.113s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.465s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.470s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.479s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.497s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.520s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.592s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.594s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.920s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.377s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.599s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.765s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.936s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.942s] -- Configured cppcheck include dirs: 
+[1.943s] -- Configured cppcheck exclude dirs and/or files: 
+[1.946s] -- Added test 'lint_cmake' to check CMake code style
+[1.954s] -- Added test 'uncrustify' to check C / C++ code style
+[1.954s] -- Configured uncrustify additional arguments: 
+[1.956s] -- Added test 'xmllint' to check XML markup files
+[1.958s] -- Configuring done
+[1.966s] [33mCMake Warning (dev) at CMakeLists.txt:87 (add_executable):
+[1.967s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[1.967s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[1.967s]   command to set the policy and suppress this warning.
+[1.967s] 
+[1.967s]   File:
+[1.967s] 
+[1.967s]     /home/flejv/bc_ws/src/leap_gesture_interface/src/carth_pub.cpp
+[1.968s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.968s] [0m
+[1.968s] [33mCMake Warning (dev) at CMakeLists.txt:91 (add_executable):
+[1.968s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[1.968s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[1.969s]   command to set the policy and suppress this warning.
+[1.969s] 
+[1.969s]   File:
+[1.969s] 
+[1.969s]     /home/flejv/bc_ws/src/leap_gesture_interface/src/rpy_pub.cpp
+[1.969s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.969s] [0m
+[2.024s] -- Generating done
+[2.030s] -- Build files have been written to: /home/flejv/bc_ws/build/leap_gesture_interface
+[2.084s] [35m[1mConsolidate compiler generated dependencies of target libExampleConnection[0m
+[2.110s] [ 11%] [32mBuilding C object CMakeFiles/libExampleConnection.dir/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c.o[0m
+[2.168s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:[m[K In function ‘[01m[KhandleConnectionEvent[m[K’:
+[2.169s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:109:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kconnection_event[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.169s]   109 | tic void handleConnectionEvent([01;35m[Kconst LEAP_CONNECTION_EVENT *connection_event[m[K){
+[2.169s]       |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[2.169s] 
+[2.170s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:[m[K In function ‘[01m[KhandleConnectionLostEvent[m[K’:
+[2.170s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:117:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kconnection_lost_event[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.170s]   117 | handleConnectionLostEvent([01;35m[Kconst LEAP_CONNECTION_LOST_EVENT *connection_lost_event[m[K){
+[2.170s]       |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.171s] 
+[2.171s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:[m[K In function ‘[01m[KhandleDeviceEvent[m[K’:
+[2.171s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:138:3:[m[K [01;35m[Kwarning: [m[Kmissing initializer for field ‘[01m[Kstatus[m[K’ of ‘[01m[KLEAP_DEVICE_INFO[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.171s]   138 |   [01;35m[KLEAP_DEVICE_INFO[m[K deviceProperties = { sizeof(deviceProperties) };
+[2.172s]       |   [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[2.172s] In file included from [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.h:13[m[K,
+[2.172s]                  from [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:10[m[K:
+[2.172s] [01m[K/usr/include/LeapC.h:1030:12:[m[K [01;36m[Knote: [m[K‘[01m[Kstatus[m[K’ declared here
+[2.172s]  1030 |   uint32_t [01;36m[Kstatus[m[K;
+[2.173s]       |            [01;36m[K^~~~~~[m[K
+[2.173s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:[m[K In function ‘[01m[KhandleDeviceLostEvent[m[K’:
+[2.173s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:166:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice_event[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.173s]   166 | static void handleDeviceLostEvent([01;35m[Kconst LEAP_DEVICE_EVENT *device_event[m[K){
+[2.174s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[2.174s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:[m[K In function ‘[01m[KserviceMessageLoop[m[K’:
+[2.174s] [01m[K/usr/share/doc/ultraleap-hand-tracking-service/samples/ExampleConnection.c:266:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kunused[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.174s]   266 | static void* serviceMessageLoop([01;35m[Kvoid * unused[m[K){
+[2.174s]       |                                 [01;35m[K~~~~~~~^~~~~~[m[K
+[2.243s] [ 11%] Built target libExampleConnection
+[2.267s] [35m[1mConsolidate compiler generated dependencies of target leap_example_node[0m
+[2.278s] [35m[1mConsolidate compiler generated dependencies of target carth[0m
+[2.279s] [35m[1mConsolidate compiler generated dependencies of target rpy[0m
+[2.280s] [35m[1mConsolidate compiler generated dependencies of target gesture_interface_node[0m
+[2.325s] [ 22%] [32mBuilding CXX object CMakeFiles/leap_example_node.dir/src/leap_interface_example.cpp.o[0m
+[2.338s] [ 33%] [32mBuilding CXX object CMakeFiles/rpy.dir/src/rpy_pub.cpp.o[0m
+[2.341s] [ 44%] [32mBuilding CXX object CMakeFiles/gesture_interface_node.dir/src/gesture_interface_node.cpp.o[0m
+[2.342s] [ 55%] [32mBuilding CXX object CMakeFiles/carth.dir/src/carth_pub.cpp.o[0m
+[8.138s] [01m[K/home/flejv/bc_ws/src/leap_gesture_interface/src/gesture_interface_node.cpp:[m[K In constructor ‘[01m[KGestureInterfaceNode::GestureInterfaceNode()[m[K’:
+[8.140s] [01m[K/home/flejv/bc_ws/src/leap_gesture_interface/src/gesture_interface_node.cpp:63:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpublish_rate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.141s]    63 |         double [01;35m[Kpublish_rate[m[K = this->declare_parameter<double>("publish_rate", 10.0);
+[8.143s]       |                [01;35m[K^~~~~~~~~~~~[m[K
+[12.214s] [ 66%] [32m[1mLinking CXX executable leap_example_node[0m
+[12.706s] [ 77%] [32m[1mLinking CXX executable carth[0m
+[12.870s] [ 77%] Built target leap_example_node
+[13.227s] [ 77%] Built target carth
+[13.814s] [ 88%] [32m[1mLinking CXX executable gesture_interface_node[0m
+[14.586s] [ 88%] Built target gesture_interface_node
+[23.771s] [100%] [32m[1mLinking CXX executable rpy[0m
+[24.939s] [100%] Built target rpy
+[24.973s] Invoked command in '/home/flejv/bc_ws/build/leap_gesture_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/leap_gesture_interface -- -j8 -l8
+[25.046s] Invoking command in '/home/flejv/bc_ws/build/leap_gesture_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/flejv/bc_ws/build/leap_gesture_interface
+[25.058s] -- Install configuration: ""
+[25.059s] -- Installing: /home/flejv/bc_ws/install/leap_gesture_interface/lib/leap_gesture_interface/gesture_interface_node
+[25.062s] -- Set runtime path of "/home/flejv/bc_ws/install/leap_gesture_interface/lib/leap_gesture_interface/gesture_interface_node" to ""
+[25.063s] -- Installing: /home/flejv/bc_ws/install/leap_gesture_interface/lib/leap_gesture_interface/leap_example_node
+[25.066s] -- Set runtime path of "/home/flejv/bc_ws/install/leap_gesture_interface/lib/leap_gesture_interface/leap_example_node" to ""
+[25.066s] -- Installing: /home/flejv/bc_ws/install/leap_gesture_interface/lib/leap_gesture_interface/carth
+[25.070s] -- Set runtime path of "/home/flejv/bc_ws/install/leap_gesture_interface/lib/leap_gesture_interface/carth" to ""
+[25.070s] -- Installing: /home/flejv/bc_ws/install/leap_gesture_interface/lib/leap_gesture_interface/rpy
+[25.085s] -- Set runtime path of "/home/flejv/bc_ws/install/leap_gesture_interface/lib/leap_gesture_interface/rpy" to ""
+[25.086s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/ament_index/resource_index/package_run_dependencies/leap_gesture_interface
+[25.086s] -- Installing: /home/flejv/bc_ws/install/leap_gesture_interface/share/ament_index/resource_index/parent_prefix_path/leap_gesture_interface
+[25.087s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/environment/ament_prefix_path.sh
+[25.087s] -- Installing: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/environment/ament_prefix_path.dsv
+[25.087s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/environment/path.sh
+[25.088s] -- Installing: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/environment/path.dsv
+[25.088s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/local_setup.bash
+[25.088s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/local_setup.sh
+[25.088s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/local_setup.zsh
+[25.088s] -- Installing: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/local_setup.dsv
+[25.089s] -- Installing: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/package.dsv
+[25.089s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/ament_index/resource_index/packages/leap_gesture_interface
+[25.089s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/cmake/leap_gesture_interfaceConfig.cmake
+[25.089s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/cmake/leap_gesture_interfaceConfig-version.cmake
+[25.090s] -- Up-to-date: /home/flejv/bc_ws/install/leap_gesture_interface/share/leap_gesture_interface/package.xml
+[25.091s] Invoked command in '/home/flejv/bc_ws/build/leap_gesture_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/flejv/bc_ws/build/leap_gesture_interface

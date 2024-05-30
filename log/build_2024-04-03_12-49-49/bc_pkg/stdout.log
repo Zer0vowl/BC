@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target gest[0m
+[ 50%] Built target connect
+[ 50%] Built target hand
+[ 75%] Built target control
+[ 87%] [32mBuilding CXX object CMakeFiles/gest.dir/src/gesture.cpp.o[0m

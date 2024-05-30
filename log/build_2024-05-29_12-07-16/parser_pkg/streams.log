@@ -1,0 +1,39 @@
+[5.157s] Invoking command in '/home/flejv/bc_ws/src/parser_pkg': PYTHONPATH=/home/flejv/bc_ws/build/parser_pkg/prefix_override:/home/flejv/bc_ws/install/parser_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/parser_pkg build --build-base /home/flejv/bc_ws/build/parser_pkg/build install --record /home/flejv/bc_ws/build/parser_pkg/install.log --single-version-externally-managed
+[6.173s] running egg_info
+[6.217s] writing ../../build/parser_pkg/parser_pkg.egg-info/PKG-INFO
+[6.230s] writing dependency_links to ../../build/parser_pkg/parser_pkg.egg-info/dependency_links.txt
+[6.231s] writing entry points to ../../build/parser_pkg/parser_pkg.egg-info/entry_points.txt
+[6.232s] writing requirements to ../../build/parser_pkg/parser_pkg.egg-info/requires.txt
+[6.232s] writing top-level names to ../../build/parser_pkg/parser_pkg.egg-info/top_level.txt
+[6.442s] reading manifest file '../../build/parser_pkg/parser_pkg.egg-info/SOURCES.txt'
+[6.508s] adding license file 'LICENSE'
+[6.509s] writing manifest file '../../build/parser_pkg/parser_pkg.egg-info/SOURCES.txt'
+[6.510s] running build
+[6.511s] running build_py
+[6.511s] copying parser_pkg/__init__.py -> /home/flejv/bc_ws/build/parser_pkg/build/lib/parser_pkg
+[6.512s] copying parser_pkg/parser.py -> /home/flejv/bc_ws/build/parser_pkg/build/lib/parser_pkg
+[6.513s] running install
+[6.560s] /home/flejv/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[6.560s] !!
+[6.560s] 
+[6.561s]         ********************************************************************************
+[6.561s]         Please avoid running ``setup.py`` directly.
+[6.561s]         Instead, use pypa/build, pypa/installer or other
+[6.561s]         standards-based tools.
+[6.561s] 
+[6.561s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[6.562s]         ********************************************************************************
+[6.562s] 
+[6.562s] !!
+[6.562s]   self.initialize_options()
+[6.572s] running install_lib
+[6.677s] running install_data
+[6.781s] copying resource/parser_pkg -> /home/flejv/bc_ws/install/parser_pkg/share/ament_index/resource_index/packages
+[6.781s] copying package.xml -> /home/flejv/bc_ws/install/parser_pkg/share/parser_pkg
+[6.781s] running install_egg_info
+[6.879s] removing '/home/flejv/bc_ws/install/parser_pkg/lib/python3.10/site-packages/parser_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[6.880s] Copying ../../build/parser_pkg/parser_pkg.egg-info to /home/flejv/bc_ws/install/parser_pkg/lib/python3.10/site-packages/parser_pkg-0.0.0-py3.10.egg-info
+[6.914s] running install_scripts
+[7.857s] Installing parser script to /home/flejv/bc_ws/install/parser_pkg/lib/parser_pkg
+[7.868s] writing list of installed files to '/home/flejv/bc_ws/build/parser_pkg/install.log'
+[8.095s] Invoked command in '/home/flejv/bc_ws/src/parser_pkg' returned '0': PYTHONPATH=/home/flejv/bc_ws/build/parser_pkg/prefix_override:/home/flejv/bc_ws/install/parser_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/parser_pkg build --build-base /home/flejv/bc_ws/build/parser_pkg/build install --record /home/flejv/bc_ws/build/parser_pkg/install.log --single-version-externally-managed

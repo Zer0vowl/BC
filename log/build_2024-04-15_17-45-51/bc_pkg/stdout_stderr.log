@@ -1,0 +1,47 @@
+[  7%] Built target libExampleConnection
+[ 23%] Built target gest
+[ 38%] Built target hand
+[ 53%] Built target rpy
+[ 69%] Built target connect
+[35m[1mConsolidate compiler generated dependencies of target control[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/control.dir/src/leap_control.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/carth.dir/src/carth_pub.cpp.o[0m
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:492:26:[m[K [01;31m[Kerror: [m[K‘[01m[KVehicleStatus[m[K’ was not declared in this scope
+  492 |     rclcpp::Subscription<[01;31m[KVehicleStatus[m[K>::SharedPtr vehicle_status_sub;
+      |                          [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:492:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  492 |     rclcpp::Subscription<VehicleStatus[01;31m[K>[m[K::SharedPtr vehicle_status_sub;
+      |                                       [01;31m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:492:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:492:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:492:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:492:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  492 |     rclcpp::Subscription<VehicleStatus>::[01;31m[KSharedPtr[m[K vehicle_status_sub;
+      |                                          [01;31m[K^~~~~~~~~[m[K
+      |                                                   [32m[K;[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:492:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kvehicle_status_sub[m[K’ does not name a type
+  492 |     rclcpp::Subscription<VehicleStatus>::SharedPtr [01;31m[Kvehicle_status_sub[m[K;
+      |                                                    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In constructor ‘[01m[KLeapControl::LeapControl()[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:84:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvehicle_local_position_sub[m[K’ was not declared in this scope
+   84 |         [01;31m[Kvehicle_local_position_sub[m[K = this->create_subscription
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:86:24:[m[K [01;31m[Kerror: [m[K‘[01m[KOffboardControl[m[K’ has not been declared
+   86 |             std::bind(&[01;31m[KOffboardControl[m[K::vehicle_position_callback, this, std::placeholders::_1));
+      |                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:128:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+  128 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+      |                                        [01;35m[K^~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[Kvoid LeapControl::carth_control()[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:507:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KUP[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+  507 |             switch[01;35m[K([m[Kdir)
+      |                   [01;35m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:507:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KDOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:507:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_R[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:507:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_L[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:507:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNEUTRAL[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[ 92%] [32m[1mLinking CXX executable carth[0m
+[ 92%] Built target carth
+gmake[2]: *** [CMakeFiles/control.dir/build.make:76: CMakeFiles/control.dir/src/leap_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

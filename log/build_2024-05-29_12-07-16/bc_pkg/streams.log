@@ -1,0 +1,57 @@
+[0.157s] Invoking command in '/home/flejv/bc_ws/build/bc_pkg': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[0.422s] [  7%] [32mBuilding CXX object CMakeFiles/hand.dir/src/virtual_hand.cpp.o[0m
+[0.436s] [ 15%] [32mBuilding CXX object CMakeFiles/control.dir/src/leap_control.cpp.o[0m
+[0.460s] [ 23%] [32mBuilding CXX object CMakeFiles/gest.dir/src/gesture.cpp.o[0m
+[0.472s] [35m[1mConsolidate compiler generated dependencies of target connect[0m
+[0.474s] [ 30%] Built target libExampleConnection
+[0.508s] [ 38%] [32mBuilding CXX object CMakeFiles/connect.dir/src/communication_hub.cpp.o[0m
+[0.593s] [ 46%] [32mBuilding CXX object CMakeFiles/rpy.dir/src/rpy_pub.cpp.o[0m
+[0.610s] [ 53%] [32mBuilding CXX object CMakeFiles/carth.dir/src/carth_pub.cpp.o[0m
+[6.428s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In constructor ‘[01m[KGesture::Gesture()[m[K’:
+[6.428s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:87:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+[6.428s]    87 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+[6.428s]       |                                        [01;35m[K^~[m[K
+[6.465s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In member function ‘[01m[Kvoid Gesture::create_base_hand(const std::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >&, std::vector<float>&, hand_type&)[m[K’:
+[6.465s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:546:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.465s]   546 |         for(int i = 0; [01;35m[Ki < msg.size()[m[K; i++)
+[6.465s]       |                        [01;35m[K~~^~~~~~~~~~~~[m[K
+[6.487s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In member function ‘[01m[Kbool Gesture::prepare_calibration_array(std::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >&, hand_type&)[m[K’:
+[6.488s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:821:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.488s]   821 |         for(int i = 0; [01;35m[Ki < pose_data.size()-1[m[K; i++)
+[6.488s]       |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[6.768s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In constructor ‘[01m[KLeapControl::LeapControl()[m[K’:
+[6.769s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:137:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+[6.770s]   137 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+[6.771s]       |                                        [01;35m[K^~[m[K
+[6.817s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In lambda function:
+[6.818s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:388:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_timer[m[K’ was not declared in this scope; did you mean ‘[01m[Kgesture_timer[m[K’?
+[6.819s]   388 |                         if([01;31m[Kstart_timer[m[K == 1)
+[6.820s]       |                            [01;31m[K^~~~~~~~~~~[m[K
+[6.821s]       |                            [32m[Kgesture_timer[m[K
+[6.866s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[Kvoid LeapControl::carth_control()[m[K’:
+[6.867s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:568:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KUP[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[6.868s]   568 |             switch[01;35m[K([m[Kdir)
+[6.870s]       |                   [01;35m[K^[m[K
+[6.871s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:568:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KDOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[6.872s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:568:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_R[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[6.873s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:568:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_L[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[6.875s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:568:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNEUTRAL[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[6.960s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/rpy_pub.cpp:[m[K In constructor ‘[01m[KGestureInterfaceNode::GestureInterfaceNode()[m[K’:
+[6.960s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/rpy_pub.cpp:27:36:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+[6.960s]    27 |         auto rpy_callback = [this] [01;35m[K->[m[K void
+[6.960s]       |                                    [01;35m[K^~[m[K
+[11.963s] [ 61%] [32m[1mLinking CXX executable carth[0m
+[12.816s] [ 61%] Built target carth
+[19.354s] [ 69%] [32m[1mLinking CXX executable hand[0m
+[19.360s] [ 76%] [32m[1mLinking CXX executable rpy[0m
+[20.498s] [ 76%] Built target rpy
+[20.751s] [ 76%] Built target hand
+[21.389s] [ 84%] [32m[1mLinking CXX executable gest[0m
+[21.883s] gmake[2]: *** [CMakeFiles/control.dir/build.make:76: CMakeFiles/control.dir/src/leap_control.cpp.o] Error 1
+[21.884s] gmake[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/control.dir/all] Error 2
+[21.884s] gmake[1]: *** Waiting for unfinished jobs....
+[22.300s] [ 84%] Built target gest
+[31.727s] [ 92%] [32m[1mLinking CXX executable connect[0m
+[33.174s] [ 92%] Built target connect
+[33.176s] gmake: *** [Makefile:146: all] Error 2
+[33.194s] Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '2': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/home/flejv/bc_ws/install/parser_pkg:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8

@@ -1,0 +1,268 @@
+-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found px4_msgs: 2.0.1 (/home/flejv/bc_ws/install/px4_msgs/share/px4_msgs/cmake)
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+[33mCMake Warning (dev) at CMakeLists.txt:63 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at CMakeLists.txt:66 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at CMakeLists.txt:69 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /home/flejv/bc_ws/src/bc_pkg/src/virtual_hand.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at CMakeLists.txt:72 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at CMakeLists.txt:75 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /home/flejv/bc_ws/src/bc_pkg/src/rpy_pub.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at CMakeLists.txt:79 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /home/flejv/bc_ws/src/bc_pkg/src/carth_pub.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Generating done
+-- Build files have been written to: /home/flejv/bc_ws/build/bc_pkg
+[35m[1mConsolidate compiler generated dependencies of target control[0m
+[35m[1mConsolidate compiler generated dependencies of target libExampleConnection[0m
+[35m[1mConsolidate compiler generated dependencies of target connect[0m
+[35m[1mConsolidate compiler generated dependencies of target hand[0m
+[  7%] Built target libExampleConnection
+[ 15%] [32mBuilding CXX object CMakeFiles/control.dir/src/leap_control.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target gest[0m
+[35m[1mConsolidate compiler generated dependencies of target carth[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/connect.dir/src/communication_hub.cpp.o[0m
+[ 38%] Built target hand
+[ 53%] Built target gest
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:1:2:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #iinclude; did you mean #include?
+    1 | #[01;31m[Kiinclude[m[K <geometry_msgs/msg/twist.hpp>
+      |  [01;31m[K^~~~~~~~[m[K
+      |  [32m[Kinclude[m[K
+[ 69%] Built target carth
+[35m[1mConsolidate compiler generated dependencies of target rpy[0m
+[ 84%] Built target rpy
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:455:43:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+  455 |     rclcpp::Publisher<geometry_msgs::msg::[01;31m[KTwist[m[K>::SharedPtr velocity_pub;
+      |                                           [01;31m[K^~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:455:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  455 |     rclcpp::Publisher<geometry_msgs::msg::Twist[01;31m[K>[m[K::SharedPtr velocity_pub;
+      |                                                [01;31m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:455:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  455 |     rclcpp::Publisher<geometry_msgs::msg::Twist>::[01;31m[KSharedPtr[m[K velocity_pub;
+      |                                                   [01;31m[K^~~~~~~~~[m[K
+      |                                                            [32m[K;[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:455:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_pub[m[K’ does not name a type
+  455 |     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr [01;31m[Kvelocity_pub[m[K;
+      |                                                             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:463:46:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+  463 |     rclcpp::Subscription<geometry_msgs::msg::[01;31m[KVector3[m[K>::SharedPtr rpy_sub;
+      |                                              [01;31m[K^~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:463:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  463 |     rclcpp::Subscription<geometry_msgs::msg::Vector3[01;31m[K>[m[K::SharedPtr rpy_sub;
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:463:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:463:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:463:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:463:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  463 |     rclcpp::Subscription<geometry_msgs::msg::Vector3>::[01;31m[KSharedPtr[m[K rpy_sub;
+      |                                                        [01;31m[K^~~~~~~~~[m[K
+      |                                                                 [32m[K;[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:463:56:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint LeapControl::SharedPtr[m[K’
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:455:51:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint LeapControl::SharedPtr[m[K’
+  455 |     rclcpp::Publisher<geometry_msgs::msg::Twist>::[01;36m[KSharedPtr[m[K velocity_pub;
+      |                                                   [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:463:66:[m[K [01;31m[Kerror: [m[K‘[01m[Krpy_sub[m[K’ does not name a type
+  463 |     rclcpp::Subscription<geometry_msgs::msg::Vector3>::SharedPtr [01;31m[Krpy_sub[m[K;
+      |                                                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:471:25:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist[m[K’ in namespace ‘[01m[Kgeometry_msgs::msg[m[K’ does not name a type
+  471 |     geometry_msgs::msg::[01;31m[KTwist[m[K twist;
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:511:25:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3[m[K’ in namespace ‘[01m[Kgeometry_msgs::msg[m[K’ does not name a type
+  511 |     geometry_msgs::msg::[01;31m[KVector3[m[K rpy;
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:694:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::msg::Vector3[m[K’ has not been declared
+  694 |     void get_rpy([01;31m[Kgeometry_msgs[m[K::msg::Vector3 msg)
+      |                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In constructor ‘[01m[KLeapControl::LeapControl()[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:67:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krpy_sub[m[K’ was not declared in this scope
+   67 |         [01;31m[Krpy_sub[m[K = this->create_subscription
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:68:34:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+   68 |             <geometry_msgs::msg::[01;31m[KVector3[m[K>("dynamic_rpy", 10,
+      |                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:68:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLeapControl::create_subscription<<expression error> >(const char [12], int, std::_Bind_helper<false, void (LeapControl::*)(int), LeapControl*, const std::_Placeholder<1>&>::type)[m[K’
+   67 |         rpy_sub = [01;31m[Kthis->create_subscription[m[K
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   68 | [01;31m[K            <geometry_msgs::msg::Vector3>("dynamic_rpy", 10,[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+   69 | [01;31m[K            std::bind(&LeapControl::get_rpy, this, std::placeholders::_1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+   92 | [01;36m[KNode[m[K::create_subscription(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:68:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   67 |         rpy_sub = [01;31m[Kthis->create_subscription[m[K
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   68 | [01;31m[K            <geometry_msgs::msg::Vector3>("dynamic_rpy", 10,[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+   69 | [01;31m[K            std::bind(&LeapControl::get_rpy, this, std::placeholders::_1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:89:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_pub[m[K’ was not declared in this scope
+   89 |         [01;31m[Kvelocity_pub[m[K = this->create_publisher
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:90:34:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+   90 |             <geometry_msgs::msg::[01;31m[KTwist[m[K>("/offboard_velocity_cmd",qos);
+      |                                  [01;31m[K^~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:90:40:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLeapControl::create_publisher<<expression error> >(const char [23], rclcpp::QoS&)[m[K’
+   89 |         velocity_pub = [01;31m[Kthis->create_publisher[m[K
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+   90 | [01;31m[K            <geometry_msgs::msg::Twist>("/offboard_velocity_cmd",qos)[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:90:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   89 |         velocity_pub = [01;31m[Kthis->create_publisher[m[K
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+   90 | [01;31m[K            <geometry_msgs::msg::Twist>("/offboard_velocity_cmd",qos)[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:130:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+  130 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+      |                                        [01;35m[K^~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In lambda function:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:405:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ktwist[m[K’ was not declared in this scope
+  405 |                     [01;31m[Ktwist[m[K.linear.x = x_val;
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:417:34:[m[K [01;31m[Kerror: [m[K‘[01m[Krpy[m[K’ was not declared in this scope
+  417 |                     std::cout << [01;31m[Krpy[m[K.x << "R" << std::endl;
+      |                                  [01;31m[K^~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:425:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_pub[m[K’ is not captured
+  425 |                     [01;31m[Kvelocity_pub[m[K->publish(twist);
+      |                     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:130:38:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  130 |         auto gesture_callback = [this[01;36m[K][m[K -> void
+      |                                      [01;36m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:89:9:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>velocity_pub[m[K’ declared here
+   89 |         [01;36m[Kvelocity_pub[m[K = this->create_publisher
+      |         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:430:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktwist[m[K’ was not declared in this scope
+  430 |                 [01;31m[Ktwist[m[K.linear.x = 0.0;
+      |                 [01;31m[K^~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:437:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_pub[m[K’ is not captured
+  437 |                 [01;31m[Kvelocity_pub[m[K->publish(twist);
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:130:38:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  130 |         auto gesture_callback = [this[01;36m[K][m[K -> void
+      |                                      [01;36m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:89:9:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>velocity_pub[m[K’ declared here
+   89 |         [01;36m[Kvelocity_pub[m[K = this->create_publisher
+      |         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[Kvoid LeapControl::carth_control()[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:531:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KUP[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+  531 |             switch[01;35m[K([m[Kdir)
+      |                   [01;35m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:531:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KDOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:531:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_R[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:531:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_L[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:531:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNEUTRAL[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:559:17:[m[K [01;31m[Kerror: [m[K‘[01m[Krpy[m[K’ was not declared in this scope
+  559 |             if(([01;31m[Krpy[m[K.x >= 0 && rpy.x <= 20) && (rpy.y >= -50 && rpy.y <= 5))
+      |                 [01;31m[K^~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[Kvoid LeapControl::rpy_control()[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:580:16:[m[K [01;31m[Kerror: [m[K‘[01m[Krpy[m[K’ was not declared in this scope
+  580 |             if([01;31m[Krpy[m[K.x >= 25)
+      |                [01;31m[K^~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:649:17:[m[K [01;31m[Kerror: [m[K‘[01m[Krpy[m[K’ was not declared in this scope
+  649 |             if(([01;31m[Krpy[m[K.x >= 0 && rpy.x <= 20) && (rpy.y >= -50 && rpy.y <= 5))
+      |                 [01;31m[K^~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[Kvoid LeapControl::get_rpy(int)[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:696:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krpy[m[K’ was not declared in this scope
+  696 |         [01;31m[Krpy[m[K.x = msg.x;
+      |         [01;31m[K^~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:696:21:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kx[m[K’ in ‘[01m[Kmsg[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  696 |         rpy.x = msg.[01;31m[Kx[m[K;
+      |                     [01;31m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:697:21:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ky[m[K’ in ‘[01m[Kmsg[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  697 |         rpy.y = msg.[01;31m[Ky[m[K;
+      |                     [01;31m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:698:21:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kz[m[K’ in ‘[01m[Kmsg[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  698 |         rpy.z = msg.[01;31m[Kz[m[K;
+      |                     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/control.dir/build.make:76: CMakeFiles/control.dir/src/leap_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/control.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 92%] [32m[1mLinking CXX executable connect[0m
+[ 92%] Built target connect
+gmake: *** [Makefile:146: all] Error 2

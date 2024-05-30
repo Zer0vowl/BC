@@ -1,0 +1,9 @@
+[0.106s] Invoking command in '/home/flejv/bc_ws/build/bc_pkg': AMENT_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/flejv/bc_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/flejv/bc_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[0.143s] [31mCMake Error at CMakeLists.txt:17:
+[0.144s]   Parse error.  Expected "(", got identifier with text "LeapSDK".
+[0.144s] 
+[0.144s] [0m
+[0.144s] -- Configuring incomplete, errors occurred!
+[0.144s] See also "/home/flejv/bc_ws/build/bc_pkg/CMakeFiles/CMakeOutput.log".
+[0.147s] gmake: *** [Makefile:390: cmake_check_build_system] Error 1
+[0.151s] Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '2': AMENT_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/flejv/bc_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/flejv/bc_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8

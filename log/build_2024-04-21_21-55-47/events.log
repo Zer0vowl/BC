@@ -1,0 +1,16 @@
+[0.000000] (-) TimerEvent: {}
+[0.000798] (leap_gesture_interface) JobQueued: {'identifier': 'leap_gesture_interface', 'dependencies': OrderedDict()}
+[0.001978] (parser_pkg) JobQueued: {'identifier': 'parser_pkg', 'dependencies': OrderedDict()}
+[0.002133] (px4_msgs) JobQueued: {'identifier': 'px4_msgs', 'dependencies': OrderedDict()}
+[0.002195] (bc_pkg) JobQueued: {'identifier': 'bc_pkg', 'dependencies': OrderedDict([('px4_msgs', '/home/flejv/bc_ws/install/px4_msgs')])}
+[0.002375] (px4_msgs) JobStarted: {'identifier': 'px4_msgs'}
+[0.099609] (-) TimerEvent: {}
+[0.134680] (leap_gesture_interface) JobStarted: {'identifier': 'leap_gesture_interface'}
+[0.174544] (leap_gesture_interface) JobEnded: {'identifier': 'leap_gesture_interface', 'rc': 0}
+[0.176871] (parser_pkg) JobStarted: {'identifier': 'parser_pkg'}
+[0.199738] (-) TimerEvent: {}
+[0.300058] (-) TimerEvent: {}
+[0.302882] (px4_msgs) JobEnded: {'identifier': 'px4_msgs', 'rc': 'SIGINT'}
+[0.304419] (parser_pkg) JobEnded: {'identifier': 'parser_pkg', 'rc': 'SIGINT'}
+[0.314624] (bc_pkg) JobSkipped: {'identifier': 'bc_pkg'}
+[0.314708] (-) EventReactorShutdown: {}

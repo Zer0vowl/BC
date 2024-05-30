@@ -1,0 +1,11 @@
+[  7%] Built target libExampleConnection
+[ 23%] Built target gest
+[ 30%] [32mBuilding CXX object CMakeFiles/control.dir/src/leap_control.cpp.o[0m
+[ 46%] Built target connect
+[ 61%] Built target hand
+[ 69%] [32mBuilding CXX object CMakeFiles/carth.dir/src/carth_pub.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/rpy.dir/src/rpy_pub.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable carth[0m
+[ 84%] Built target carth
+[ 92%] [32m[1mLinking CXX executable control[0m
+[ 92%] Built target control

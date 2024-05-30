@@ -1,0 +1,64 @@
+[0.089s] Invoking command in '/home/flejv/bc_ws/build/bc_pkg': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[0.146s] [35m[1mConsolidate compiler generated dependencies of target control[0m
+[0.163s] [ 25%] Built target gest
+[0.172s] [ 50%] Built target hand
+[0.173s] [ 87%] Built target connect
+[0.173s] [ 87%] [32mBuilding CXX object CMakeFiles/control.dir/src/leap_control.cpp.o[0m
+[3.881s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In constructor ‘[01m[KLeapControl::LeapControl()[m[K’:
+[3.881s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:128:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+[3.881s]   128 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+[3.882s]       |                                        [01;35m[K^~[m[K
+[3.884s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In lambda function:
+[3.884s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:180:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kinit_flag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.884s]   180 |                 int [01;35m[Kinit_flag[m[K = 1;
+[3.885s]       |                     [01;35m[K^~~~~~~~~[m[K
+[3.887s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:133:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KCONTROL[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.888s]   133 |             switch[01;35m[K([m[Kcurrent_state)
+[3.888s]       |                   [01;35m[K^[m[K
+[3.903s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[Kvoid LeapControl::carth_control()[m[K’:
+[3.903s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:296:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KUP[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.904s]   296 |             switch[01;35m[K([m[Kdir)
+[3.904s]       |                   [01;35m[K^[m[K
+[3.904s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:296:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KDOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.904s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:296:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_R[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.904s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:296:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KTURN_L[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.904s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:296:19:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNEUTRAL[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.907s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[KDirection LeapControl::get_rpy_direction()[m[K’:
+[3.907s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:456:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[3.907s]   456 |     [01;35m[K}[m[K
+[3.907s]       |     [01;35m[K^[m[K
+[3.910s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:[m[K In member function ‘[01m[Kvoid LeapControl::count_down()[m[K’:
+[3.911s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:569:47:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp::Time rclcpp::Node::now() const[m[K’
+[3.911s]   569 |                 if(duration_cast<seconds>([01;31m[Know - last_second_mark[m[K) >= seconds(1))
+[3.911s]       |                                           [01;31m[K~~~~^~~~~~~~~~~~~~~~~~[m[K
+[3.911s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.911s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.911s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.911s]                  from [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:6[m[K:
+[3.912s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1126:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.912s]  1126 |   [01;36m[Know[m[K() const;
+[3.912s]       |   [01;36m[K^~~[m[K
+[3.912s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:571:40:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp::Time rclcpp::Node::now() const[m[K’
+[3.912s]   571 |                     last_second_mark = [01;31m[Know[m[K; // Update the last second mark to the current time
+[3.912s]       |                                        [01;31m[K^~~[m[K
+[3.912s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.912s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.912s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.913s]                  from [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:6[m[K:
+[3.913s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1126:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.913s]  1126 |   [01;36m[Know[m[K() const;
+[3.913s]       |   [01;36m[K^~~[m[K
+[3.913s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:572:70:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp::Time rclcpp::Node::now() const[m[K’
+[3.913s]   572 |                     auto seconds_passed = duration_cast<seconds>([01;31m[Know - start[m[K).count();
+[3.913s]       |                                                                  [01;31m[K~~~~^~~~~~~[m[K
+[3.913s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.913s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.914s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.914s]                  from [01m[K/home/flejv/bc_ws/src/bc_pkg/src/leap_control.cpp:6[m[K:
+[3.914s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1126:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.914s]  1126 |   [01;36m[Know[m[K() const;
+[3.914s]       |   [01;36m[K^~~[m[K
+[12.288s] gmake[2]: *** [CMakeFiles/control.dir/build.make:76: CMakeFiles/control.dir/src/leap_control.cpp.o] Error 1
+[12.288s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/control.dir/all] Error 2
+[12.288s] gmake: *** [Makefile:146: all] Error 2
+[12.292s] Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '2': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8

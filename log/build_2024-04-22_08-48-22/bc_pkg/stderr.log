@@ -1,0 +1,33 @@
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:[m[K In constructor ‘[01m[KOffboardControl::OffboardControl()[m[K’:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:33:9:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krmw_qos_profile_s::deadline[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+   33 |         [01;35m[K}[m[K;
+      |         [01;35m[K^[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:33:9:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krmw_qos_profile_s::lifespan[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:33:9:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krmw_qos_profile_s::liveliness[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:33:9:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krmw_qos_profile_s::liveliness_lease_duration[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:33:9:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krmw_qos_profile_s::avoid_ros_namespace_conventions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:[m[K In lambda function:
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:78:21:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+   78 |                     [01;35m[Kif[m[K(flight_check && arm_msg == true)
+      |                     [01;35m[K^~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:83:17:[m[K [01;36m[Knote: [m[Khere
+   83 |                 [01;36m[Kcase[m[K ARMING:
+      |                 [01;36m[K^~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:92:30:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+   92 |                     [01;35m[Kthis->arm()[m[K;
+      |                     [01;35m[K~~~~~~~~~^~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:94:17:[m[K [01;36m[Knote: [m[Khere
+   94 |                 [01;36m[Kcase[m[K TAKEOFF:
+      |                 [01;36m[K^~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:103:35:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+  103 |                     [01;35m[Kthis->take_off()[m[K;
+      |                     [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:107:17:[m[K [01;36m[Knote: [m[Khere
+  107 |                 [01;36m[Kcase[m[K LOITER:
+      |                 [01;36m[K^~~~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:116:30:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+  116 |                     [01;35m[Kthis->arm()[m[K;
+      |                     [01;35m[K~~~~~~~~~^~[m[K
+[01m[K/home/flejv/bc_ws/src/bc_pkg/src/communication_hub.cpp:118:17:[m[K [01;36m[Knote: [m[Khere
+  118 |                 [01;36m[Kcase[m[K OFFBOARD:
+      |                 [01;36m[K^~~~[m[K

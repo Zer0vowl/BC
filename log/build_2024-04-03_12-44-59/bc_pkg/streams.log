@@ -1,0 +1,181 @@
+[0.085s] Invoking command in '/home/flejv/bc_ws/build/bc_pkg': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8
+[0.162s] [35m[1mConsolidate compiler generated dependencies of target gest[0m
+[0.171s] [ 25%] Built target connect
+[0.173s] [ 50%] Built target control
+[0.178s] [ 75%] Built target hand
+[0.193s] [ 87%] [32mBuilding CXX object CMakeFiles/gest.dir/src/gesture.cpp.o[0m
+[3.392s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In constructor ‘[01m[KGesture::Gesture()[m[K’:
+[3.392s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:77:40:[m[K [01;35m[Kwarning: [m[Kparameter declaration before lambda trailing return type only optional with ‘[01m[K-std=c++2b[m[K’ or ‘[01m[K-std=gnu++2b[m[K’
+[3.393s]    77 |         auto gesture_callback = [this] [01;35m[K->[m[K void
+[3.393s]       |                                        [01;35m[K^~[m[K
+[3.398s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In lambda function:
+[3.399s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:255:47:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kto_string(std_msgs::msg::String&)[m[K’
+[3.400s]   255 |             std::cout<<"RIGHT"<<[01;31m[Kstd::to_string(gesture_r)[m[K<<std::endl;
+[3.400s]       |                                 [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[3.401s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[3.401s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[3.401s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.401s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.401s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.402s]                  from [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:6[m[K:
+[3.402s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:289:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::to_string(const rclcpp::Parameter&)[m[K’
+[3.402s]   289 | [01;36m[Kto_string[m[K(const rclcpp::Parameter & param);
+[3.402s]       | [01;36m[K^~~~~~~~~[m[K
+[3.403s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:289:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} to ‘[01m[Kconst rclcpp::Parameter&[m[K’
+[3.403s]   289 | to_string([01;36m[Kconst rclcpp::Parameter & param[m[K);
+[3.403s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.403s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:294:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::to_string(const std::vector<rclcpp::Parameter>&)[m[K’
+[3.404s]   294 | [01;36m[Kto_string[m[K(const std::vector<rclcpp::Parameter> & parameters);
+[3.404s]       | [01;36m[K^~~~~~~~~[m[K
+[3.404s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:294:50:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::vector<rclcpp::Parameter>&[m[K’
+[3.404s]   294 | to_string([01;36m[Kconst std::vector<rclcpp::Parameter> & parameters[m[K);
+[3.404s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[3.405s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[3.405s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:11[m[K,
+[3.405s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7[m[K,
+[3.405s]                  from [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:1[m[K:
+[3.406s] [01m[K/usr/include/c++/11/bits/basic_string.h:6660:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(int)[m[K’
+[3.406s]  6660 |   [01;36m[Kto_string[m[K(int __val)
+[3.406s]       |   [01;36m[K^~~~~~~~~[m[K
+[3.406s] [01m[K/usr/include/c++/11/bits/basic_string.h:6660:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} to ‘[01m[Kint[m[K’
+[3.407s]  6660 |   to_string([01;36m[Kint __val[m[K)
+[3.407s]       |             [01;36m[K~~~~^~~~~[m[K
+[3.407s] [01m[K/usr/include/c++/11/bits/basic_string.h:6671:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(unsigned int)[m[K’
+[3.407s]  6671 |   [01;36m[Kto_string[m[K(unsigned __val)
+[3.407s]       |   [01;36m[K^~~~~~~~~[m[K
+[3.408s] [01m[K/usr/include/c++/11/bits/basic_string.h:6671:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} to ‘[01m[Kunsigned int[m[K’
+[3.408s]  6671 |   to_string([01;36m[Kunsigned __val[m[K)
+[3.408s]       |             [01;36m[K~~~~~~~~~^~~~~[m[K
+[3.408s] [01m[K/usr/include/c++/11/bits/basic_string.h:6679:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(long int)[m[K’
+[3.409s]  6679 |   [01;36m[Kto_string[m[K(long __val)
+[3.409s]       |   [01;36m[K^~~~~~~~~[m[K
+[3.409s] [01m[K/usr/include/c++/11/bits/basic_string.h:6679:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} to ‘[01m[Klong int[m[K’
+[3.409s]  6679 |   to_string([01;36m[Klong __val[m[K)
+[3.409s]       |             [01;36m[K~~~~~^~~~~[m[K
+[3.410s] [01m[K/usr/include/c++/11/bits/basic_string.h:6690:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(long unsigned int)[m[K’
+[3.410s]  6690 |   [01;36m[Kto_string[m[K(unsigned long __val)
+[3.410s]       |   [01;36m[K^~~~~~~~~[m[K
+[3.410s] [01m[K/usr/include/c++/11/bits/basic_string.h:6690:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} to ‘[01m[Klong unsigned int[m[K’
+[3.411s]  6690 |   to_string([01;36m[Kunsigned long __val[m[K)
+[3.411s]       |             [01;36m[K~~~~~~~~~~~~~~^~~~~[m[K
+[3.411s] [01m[K/usr/include/c++/11/bits/basic_string.h:6698:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(long long int)[m[K’
+[3.411s]  6698 |   [01;36m[Kto_string[m[K(long long __val)
+[3.412s]       |   [01;36m[K^~~~~~~~~[m[K
+[3.412s] [01m[K/usr/include/c++/11/bits/basic_string.h:6698:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} to ‘[01m[Klong long int[m[K’
+[3.412s]  6698 |   to_string([01;36m[Klong long __val[m[K)
+[3.412s]       |             [01;36m[K~~~~~~~~~~^~~~~[m[K
+[3.413s] [01m[K/usr/include/c++/11/bits/basic_string.h:6710:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(long long unsigned int)[m[K’
+[3.413s]  6710 |   [01;36m[Kto_string[m[K(unsigned long long __val)
+[3.413s]       |   [01;36m[K^~~~~~~~~[m[K
+[3.413s] [01m[K/usr/include/c++/11/bits/basic_string.h:6710:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} to ‘[01m[Klong long unsigned int[m[K’
+[3.413s]  6710 |   to_string([01;36m[Kunsigned long long __val[m[K)
+[3.414s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.414s] [01m[K/usr/include/c++/11/bits/basic_string.h:6721:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(float)[m[K’
+[3.414s]  6721 |   [01;36m[Kto_string[m[K(float __val)
+[3.414s]       |   [01;36m[K^~~~~~~~~[m[K
+[3.415s] [01m[K/usr/include/c++/11/bits/basic_string.h:6721:19:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} to ‘[01m[Kfloat[m[K’
+[3.415s]  6721 |   to_string([01;36m[Kfloat __val[m[K)
+[3.415s]       |             [01;36m[K~~~~~~^~~~~[m[K
+[3.415s] [01m[K/usr/include/c++/11/bits/basic_string.h:6730:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(double)[m[K’
+[3.416s]  6730 |   [01;36m[Kto_string[m[K(double __val)
+[3.416s]       |   [01;36m[K^~~~~~~~~[m[K
+[3.416s] [01m[K/usr/include/c++/11/bits/basic_string.h:6730:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} to ‘[01m[Kdouble[m[K’
+[3.416s]  6730 |   to_string([01;36m[Kdouble __val[m[K)
+[3.416s]       |             [01;36m[K~~~~~~~^~~~~[m[K
+[3.417s] [01m[K/usr/include/c++/11/bits/basic_string.h:6739:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(long double)[m[K’
+[3.417s]  6739 |   [01;36m[Kto_string[m[K(long double __val)
+[3.417s]       |   [01;36m[K^~~~~~~~~[m[K
+[3.417s] [01m[K/usr/include/c++/11/bits/basic_string.h:6739:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} to ‘[01m[Klong double[m[K’
+[3.418s]  6739 |   to_string([01;36m[Klong double __val[m[K)
+[3.418s]       |             [01;36m[K~~~~~~~~~~~~^~~~~[m[K
+[3.418s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:256:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kto_string(std_msgs::msg::String&)[m[K’
+[3.418s]   256 |             std::cout<<"LEFT"<<[01;31m[Kstd::to_string(gesture_l)[m[K<<std::endl;
+[3.419s]       |                                [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[3.419s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[3.419s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[3.419s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.419s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.420s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.420s]                  from [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:6[m[K:
+[3.420s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:289:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::to_string(const rclcpp::Parameter&)[m[K’
+[3.420s]   289 | [01;36m[Kto_string[m[K(const rclcpp::Parameter & param);
+[3.421s]       | [01;36m[K^~~~~~~~~[m[K
+[3.421s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:289:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} to ‘[01m[Kconst rclcpp::Parameter&[m[K’
+[3.421s]   289 | to_string([01;36m[Kconst rclcpp::Parameter & param[m[K);
+[3.421s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.422s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:294:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::to_string(const std::vector<rclcpp::Parameter>&)[m[K’
+[3.422s]   294 | [01;36m[Kto_string[m[K(const std::vector<rclcpp::Parameter> & parameters);
+[3.422s]       | [01;36m[K^~~~~~~~~[m[K
+[3.422s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:294:50:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::vector<rclcpp::Parameter>&[m[K’
+[3.423s]   294 | to_string([01;36m[Kconst std::vector<rclcpp::Parameter> & parameters[m[K);
+[3.423s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[3.423s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[3.423s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:11[m[K,
+[3.423s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7[m[K,
+[3.424s]                  from [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:1[m[K:
+[3.424s] [01m[K/usr/include/c++/11/bits/basic_string.h:6660:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(int)[m[K’
+[3.424s]  6660 |   [01;36m[Kto_string[m[K(int __val)
+[3.424s]       |   [01;36m[K^~~~~~~~~[m[K
+[3.425s] [01m[K/usr/include/c++/11/bits/basic_string.h:6660:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} to ‘[01m[Kint[m[K’
+[3.425s]  6660 |   to_string([01;36m[Kint __val[m[K)
+[3.425s]       |             [01;36m[K~~~~^~~~~[m[K
+[3.425s] [01m[K/usr/include/c++/11/bits/basic_string.h:6671:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(unsigned int)[m[K’
+[3.425s]  6671 |   [01;36m[Kto_string[m[K(unsigned __val)
+[3.426s]       |   [01;36m[K^~~~~~~~~[m[K
+[3.426s] [01m[K/usr/include/c++/11/bits/basic_string.h:6671:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} to ‘[01m[Kunsigned int[m[K’
+[3.426s]  6671 |   to_string([01;36m[Kunsigned __val[m[K)
+[3.426s]       |             [01;36m[K~~~~~~~~~^~~~~[m[K
+[3.427s] [01m[K/usr/include/c++/11/bits/basic_string.h:6679:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(long int)[m[K’
+[3.427s]  6679 |   [01;36m[Kto_string[m[K(long __val)
+[3.427s]       |   [01;36m[K^~~~~~~~~[m[K
+[3.427s] [01m[K/usr/include/c++/11/bits/basic_string.h:6679:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} to ‘[01m[Klong int[m[K’
+[3.428s]  6679 |   to_string([01;36m[Klong __val[m[K)
+[3.428s]       |             [01;36m[K~~~~~^~~~~[m[K
+[3.428s] [01m[K/usr/include/c++/11/bits/basic_string.h:6690:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(long unsigned int)[m[K’
+[3.428s]  6690 |   [01;36m[Kto_string[m[K(unsigned long __val)
+[3.429s]       |   [01;36m[K^~~~~~~~~[m[K
+[3.429s] [01m[K/usr/include/c++/11/bits/basic_string.h:6690:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} to ‘[01m[Klong unsigned int[m[K’
+[3.429s]  6690 |   to_string([01;36m[Kunsigned long __val[m[K)
+[3.429s]       |             [01;36m[K~~~~~~~~~~~~~~^~~~~[m[K
+[3.429s] [01m[K/usr/include/c++/11/bits/basic_string.h:6698:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(long long int)[m[K’
+[3.430s]  6698 |   [01;36m[Kto_string[m[K(long long __val)
+[3.430s]       |   [01;36m[K^~~~~~~~~[m[K
+[3.430s] [01m[K/usr/include/c++/11/bits/basic_string.h:6698:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} to ‘[01m[Klong long int[m[K’
+[3.430s]  6698 |   to_string([01;36m[Klong long __val[m[K)
+[3.431s]       |             [01;36m[K~~~~~~~~~~^~~~~[m[K
+[3.431s] [01m[K/usr/include/c++/11/bits/basic_string.h:6710:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(long long unsigned int)[m[K’
+[3.431s]  6710 |   [01;36m[Kto_string[m[K(unsigned long long __val)
+[3.431s]       |   [01;36m[K^~~~~~~~~[m[K
+[3.432s] [01m[K/usr/include/c++/11/bits/basic_string.h:6710:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} to ‘[01m[Klong long unsigned int[m[K’
+[3.432s]  6710 |   to_string([01;36m[Kunsigned long long __val[m[K)
+[3.432s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.432s] [01m[K/usr/include/c++/11/bits/basic_string.h:6721:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(float)[m[K’
+[3.432s]  6721 |   [01;36m[Kto_string[m[K(float __val)
+[3.432s]       |   [01;36m[K^~~~~~~~~[m[K
+[3.432s] [01m[K/usr/include/c++/11/bits/basic_string.h:6721:19:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} to ‘[01m[Kfloat[m[K’
+[3.433s]  6721 |   to_string([01;36m[Kfloat __val[m[K)
+[3.433s]       |             [01;36m[K~~~~~~^~~~~[m[K
+[3.433s] [01m[K/usr/include/c++/11/bits/basic_string.h:6730:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(double)[m[K’
+[3.433s]  6730 |   [01;36m[Kto_string[m[K(double __val)
+[3.433s]       |   [01;36m[K^~~~~~~~~[m[K
+[3.433s] [01m[K/usr/include/c++/11/bits/basic_string.h:6730:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} to ‘[01m[Kdouble[m[K’
+[3.433s]  6730 |   to_string([01;36m[Kdouble __val[m[K)
+[3.433s]       |             [01;36m[K~~~~~~~^~~~~[m[K
+[3.433s] [01m[K/usr/include/c++/11/bits/basic_string.h:6739:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(long double)[m[K’
+[3.433s]  6739 |   [01;36m[Kto_string[m[K(long double __val)
+[3.433s]       |   [01;36m[K^~~~~~~~~[m[K
+[3.434s] [01m[K/usr/include/c++/11/bits/basic_string.h:6739:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} to ‘[01m[Klong double[m[K’
+[3.434s]  6739 |   to_string([01;36m[Klong double __val[m[K)
+[3.434s]       |             [01;36m[K~~~~~~~~~~~~^~~~~[m[K
+[3.434s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In member function ‘[01m[Kvoid Gesture::create_base_hand(const std::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >&, std::vector<float>&, hand_type&)[m[K’:
+[3.434s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:502:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.434s]   502 |         for(int i = 0; [01;35m[Ki < msg.size()[m[K; i++)
+[3.434s]       |                        [01;35m[K~~^~~~~~~~~~~~[m[K
+[3.434s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:[m[K In member function ‘[01m[Kbool Gesture::prepare_calibration_array(std::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >&, hand_type&)[m[K’:
+[3.434s] [01m[K/home/flejv/bc_ws/src/bc_pkg/src/gesture.cpp:795:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.434s]   795 |         for(int i = 0; [01;35m[Ki < pose_data.size()-1[m[K; i++)
+[3.434s]       |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[6.678s] gmake[2]: *** [CMakeFiles/gest.dir/build.make:76: CMakeFiles/gest.dir/src/gesture.cpp.o] Error 1
+[6.678s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/gest.dir/all] Error 2
+[6.679s] gmake: *** [Makefile:146: all] Error 2
+[6.683s] Invoked command in '/home/flejv/bc_ws/build/bc_pkg' returned '2': CMAKE_PREFIX_PATH=/home/flejv/bc_ws/install/px4_msgs:/home/flejv/bc_ws/install/bc_pkg:/home/flejv/bc_ws/install/leap_gesture_interface:/opt/ros/humble /usr/bin/cmake --build /home/flejv/bc_ws/build/bc_pkg -- -j8 -l8

@@ -1,4 +1,4 @@
-# Leap Gesture Interface for Drone Control
+# Controlling a drone via gestures
 
 This project enables controlling a simulated drone via gestures using Leap Motion, PX4, and a ROS2 environment.
 

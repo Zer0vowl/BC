@@ -1,5 +1,4 @@
-# BC
-## Flavian Annus - Controlling a Drone Via Gestures
+# Leap Gesture Interface for Drone Control
 
 This project enables controlling a simulated drone via gestures using Leap Motion, PX4, and a ROS2 environment.
 
@@ -41,55 +40,109 @@ Extracts Roll, Pitch, and Yaw data from the Gesture Interface Node for additiona
 #### Virtual Hand Node
 Visualizes hand movements and gestures in RViz2, aiding in debugging and development.
 
+## Installation
+
+1. **Set up a ROS 2 workspace** (skip if you already have one):
+    ```bash
+    mkdir -p ~/ros2_ws/src
+    cd ~/ros2_ws
+    ```
+
+2. **Clone this repository**:
+    ```bash
+    cd src/
+    git clone [your repository link]
+    ```
+
+3. **Install dependencies**:
+    Navigate back to your ROS 2 workspace root and run:
+    ```bash
+    rosdep install --from-paths src --ignore-src -r -y
+    ```
+
+4. **Build the package**:
+    ```bash
+    colcon build
+    ```
+
+5. **Source the environment**:
+    ```bash
+    . install/setup.bash
+    ```
+
 ## Gesture Specifications
 
 The following sections describe the gestures used to control the drone. Each gesture will be illustrated with an image.
 
-### Gesture 1: [Description]
-![Gesture FIVE]([text](../Downloads/five))
+### Gesture FIVE:
+![Gesture FIVE](file:///home/flejv/Downloads/five)
 
-### Gesture 2: [Description]
-![Gesture FIST]([text](../Downloads/fist))
+### Gesture FIST:
+![Gesture FIST](file:///home/flejv/Downloads/fist)
 
-### Gesture 3: [Description]
-![Gesture THUMB_L]([text](../Downloads/thl))
+### Gesture ONE:
+![Gesture ONE](file:///home/flejv/Downloads/one)
 
-### Gesture 4: [Description]
-![Gesture THUMB_R]([text](../Downloads/th))
+### Gesture TWO:
+![Gesture TWO](file:///home/flejv/Downloads/two)
 
-### Gesture 5: [Description]
-![Gesture ONE]([text](../Downloads/one))
+### Gesture THUMB_L:
+![Gesture THUMB_L](file:///home/flejv/Downloads/thl)
 
-### Gesture 6: [Description]
-![Gesture TWO]([text](../Downloads/two))
+### Gesture THUMB_R:
+![Gesture THUMB_R](file:///home/flejv/Downloads/th)
 
-## Getting Started
+## Usage
 
-### Prerequisites
+1. **Start the drone simulation**
+    ```bash
+    cd ~/PX4-Autopilot && make px4_sitl gz_x500_mono_cam
+    ```
 
-Ensure you have the following installed and configured:
-- ROS2 Humble
-- PX4 Autopilot
-- Gazebo with ROS2 bridge
-- Leap Motion SDK
+2. **In a new terminal, start the MicroXRCE Agent**
+    ```bash
+    MicroXRCEAgent udp4 -p 8888
+    ```
 
-### Installation
+3. **To run the gz bridge for the camera output**
+    ```bash
+    ros2 run ros_gz_bridge parameter_bridge /camera@sensor_msgs/msg/Image
+    ```
 
-Follow the installation guides provided above to set up your environment.
+4. **In your workspace to start the CommunicationHub node**
+    ```bash
+    ros2 run bc_pkg connect
+    ```
+5. **In your workspace to start the Control node**
+    ```bash
+    ros2 run bc_pkg control
+    ```
+6. **In your workspace to start the GestureInterface node**
+    ```bash
+    ros2 run bc_pkg carth
+    ```
 
-### Running the Nodes
+7. **In your workspace to start the RPY node**
+    ```bash
+    ros2 run bc_pkg rpy
+    ```
 
-1. Launch the Gesture Interface Node to start reading data from the Leap Motion controller.
-2. Start the Gesture Node to begin processing and recognizing gestures.
-3. Run the Control Node to convert gestures into drone commands.
-4. Initialize the Communication Hub to relay commands to the simulation.
-5. Start the RPY Node to extract orientation data.
-6. Launch the Virtual Hand Node to visualize the hand movements in RViz2.
+8. **In your workspace to start the Gesture node**
+    ```bash
+    ros2 run bc_pkg gest
+    ```
 
-### Usage
+9. **In your workspace to start the VirtualHand node**
+    ```bash
+    ros2 run bc_pkg hand
+    ```
 
-Once all nodes are running, use the specified gestures to control the simulated drone. Refer to the gesture specifications for details on each control gesture.
+9. **In order to visualize the data captured by the leap motion sensor**
+    ```bash
+    rviz -d ~/[your_workspace_name]/src/bc_pkg/config/virtual_hand.rviz
+    ```
 
-## Troubleshooting
-
-If you encounter any issues, ensure all dependencies are correctly installed and that each node is properly configured.
+9. **In order to visualize the camera outputt**
+    ```bash
+    rviz -d ~/[your_workspace_name]/src/bc_pkg/config/cam.rviz
+    ```

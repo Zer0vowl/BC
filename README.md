@@ -75,24 +75,34 @@ Visualizes hand movements and gestures in RViz2, aiding in debugging and develop
 The following sections describe the gestures used to control the drone. Each gesture will be illustrated with an image.
 
 ### Gesture FIVE:
-![Gesture FIVE](file:///home/flejv/Downloads/five)
+![Gesture FIVE](///home/flejv/Downloads/five)
 
 ### Gesture FIST:
-![Gesture FIST](file:///home/flejv/Downloads/fist)
+![Gesture FIST](///home/flejv/Downloads/fist)
 
 ### Gesture ONE:
-![Gesture ONE](file:///home/flejv/Downloads/one)
+![Gesture ONE](///home/flejv/Downloads/one)
 
 ### Gesture TWO:
-![Gesture TWO](file:///home/flejv/Downloads/two)
+![Gesture TWO](///home/flejv/Downloads/two)
 
 ### Gesture THUMB_L:
-![Gesture THUMB_L](file:///home/flejv/Downloads/thl)
+![Gesture THUMB_L](///home/flejv/Downloads/thl)
 
 ### Gesture THUMB_R:
-![Gesture THUMB_R](file:///home/flejv/Downloads/th)
+![Gesture THUMB_R](///home/flejv/Downloads/th)
 
 ## Usage
+
+### Running the Nodes
+
+1. Launch the Gesture Interface Node to start reading data from the Leap Motion controller.
+2. Start the Gesture Node to begin processing and recognizing gestures.
+3. Run the Control Node to convert gestures into drone commands.
+4. Initialize the Communication Hub to relay commands to the simulation.
+5. Start the RPY Node to extract orientation data.
+6. Launch the Virtual Hand Node to visualize the hand movements in RViz2.
+
 
 1. **Start the drone simulation**
     ```bash

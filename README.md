@@ -75,22 +75,22 @@ Visualizes hand movements and gestures in RViz2, aiding in debugging and develop
 The following sections describe the gestures used to control the drone. Each gesture will be illustrated with an image.
 
 ### Gesture FIVE:
-![Gesture FIVE](/home/flejv/bc_ws/src/bc_pkg/config/gestures/five)
+![Gesture FIVE](src/bc_pkg/config/gestures/five)
 
 ### Gesture FIST:
-![Gesture FIST](/home/flejv/bc_ws/src/bc_pkg/config/gestures/fist)
+![Gesture FIST](src/bc_pkg/config/gestures/fist)
 
 ### Gesture ONE:
-![Gesture ONE](/home/flejv/bc_ws/src/bc_pkg/config/gestures/one)
+![Gesture ONE](src/bc_pkg/config/gestures/one)
 
 ### Gesture TWO:
-![Gesture TWO](/home/flejv/bc_ws/src/bc_pkg/config/gestures/two)
+![Gesture TWO](src/bc_pkg/config/gestures/two)
 
 ### Gesture THUMB_L:
-![Gesture THUMB_L](/home/flejv/bc_ws/src/bc_pkg/config/gestures/thl)
+![Gesture THUMB_L](src/bc_pkg/config/gestures/thl)
 
 ### Gesture THUMB_R:
-![Gesture THUMB_R](/home/flejv/bc_ws/src/bc_pkg/config/gestures/th)
+![Gesture THUMB_R](src/bc_pkg/config/gestures/th)
 
 ## Usage
 
